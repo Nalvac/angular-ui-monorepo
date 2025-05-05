@@ -39,14 +39,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git checkout --orphan new-release
+          git checkout --orphan release
           cp -r dist/ui-components/* .
           
-          # Commit initial
-          git add -f .
-          git commit -m "Release ${GITHUB_REF_NAME}"
-          
-          # Remplace la branche release
-          git branch -D release || true
-          git branch -m release
-          git push -f origin release
