@@ -5943,7 +5943,7 @@
         },
         {
           "file": "ui-components/package.json",
-          "hash": "2334724135662400286",
+          "hash": "7727212054131562255",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core"

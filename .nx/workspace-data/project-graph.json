@@ -137,7 +137,7 @@
           "targetGroups": {},
           "js": {
             "packageName": "@nalvac/ui-components",
-            "packageMain": "ui-components/index.js",
+            "packageMain": "dist/libs/ui-components/index.js",
             "isInPackageManagerWorkspaces": false
           }
         },
@@ -46301,5 +46301,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1746435874487
+  "computedAt": 1746436536581
 }

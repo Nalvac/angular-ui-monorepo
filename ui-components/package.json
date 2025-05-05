@@ -5,8 +5,8 @@
     "@angular/common": "^19.2.0",
     "@angular/core": "^19.2.0"
   },
-  "main": "ui-components/index.js",
-  "types": "ui-components/index.d.ts",
+  "main": "dist/libs/ui-components/index.js",
+  "types": "dist/libs/ui-components/index.d.ts",
   "files": ["**/*"],
   "repository": {
     "type": "git",
