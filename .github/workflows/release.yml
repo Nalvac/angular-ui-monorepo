@@ -25,6 +25,11 @@ jobs:
       - name: Build library
         run: npx nx build ui-components
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "nalvac"
+          git config --global user.email "vacna197@gmail.com"
+
       - name: Prepare release branch
         run: |
           git checkout --orphan release
