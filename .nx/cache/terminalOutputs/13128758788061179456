@@ -1,0 +1,19 @@
+[34mBuilding Angular Package[39m
+[37m[39m
+[37m------------------------------------------------------------------------------[39m
+[37mBuilding entry point '@nalvac/ui-components'[39m
+[37m------------------------------------------------------------------------------[39m
+[36m⠋[39m Compiling with Angular sources in Ivy partial compilation mode.[2K[1G[36m⠙[39m Compiling with Angular sources in Ivy partial compilation mode.[2K[1G[36m⠹[39m Compiling with Angular sources in Ivy partial compilation mode.[2K[1G[36m⠸[39m Compiling with Angular sources in Ivy partial compilation mode.[2K[1G[32m✔[39m Compiling with Angular sources in Ivy partial compilation mode.
+[32m✔[39m Generating FESM bundles
+[36m⠋[39m Copying assets[2K[1G[32m✔[39m Copying assets
+[36m⠋[39m Writing package manifest[2K[1G[32m✔[39m Writing package manifest
+[32m✔[39m Built @nalvac/ui-components
+[32m[39m
+[32m------------------------------------------------------------------------------[39m
+[32mBuilt Angular Package[39m
+[32m - from: /Users/nalvacatinhounon/Documents/angular-ui-monorepo/ui-components[39m
+[32m - to:   /Users/nalvacatinhounon/Documents/angular-ui-monorepo/dist/ui-components[39m
+[32m------------------------------------------------------------------------------[39m
+[37m[37m[39m[37m[39m
+[37m[37mBuild at: [1m2025-05-05T08:33:46.085Z[22m - Time: [1m866[22mms[39m[37m[39m
+[37m[37m[39m[37m[39m
