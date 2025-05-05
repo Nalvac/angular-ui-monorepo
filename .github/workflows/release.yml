@@ -1,6 +1,5 @@
 name: Release
 
-# 1️⃣ On autorise explicitement le push
 permissions:
   contents: write
 
@@ -18,7 +17,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # 2️⃣ On s’assure de persister le GITHUB_TOKEN pour les pushes
           persist-credentials: true
 
       - name: Setup Node.js
@@ -40,19 +38,14 @@ jobs:
 
       - name: Prepare release branch
         run: |
-          # Si la branche release existe déjà, on la supprime localement
           git branch -D release || true
-          # On crée la branche release à partir de HEAD
           git checkout --orphan release
 
-          # On supprime tout (sinon on garde les fichiers de l'app)
           git reset --hard
 
       - name: Copy dist to root
         run: |
-          # Ici, ui-components est le nom de ta lib ; adapte si besoin
           cp -r dist/ui-components/* ./
-          # On peut enlever le dossier dist/ si tu ne le veux pas :
           rm -rf dist node_modules
 
       - name: Commit and push
@@ -61,5 +54,4 @@ jobs:
         run: |
           git add -A
           git commit -m "Release ${GITHUB_REF_NAME}"
-          # 3️⃣ On pousse en forçant la branche release
           git push -f origin release
