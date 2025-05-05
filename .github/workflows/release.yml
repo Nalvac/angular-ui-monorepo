@@ -33,6 +33,7 @@ jobs:
       - name: Prepare release branch
         run: |
           git checkout --orphan release
+          git rm -rf .
           cp -r dist/ui-components/* .
           sed -i 's/"private": true/"private": false/' package.json
 
