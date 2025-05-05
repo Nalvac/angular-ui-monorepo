@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db2fe080-fdd6-4415-871b-9cbee4850452" name="Changes" comment="t" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Nalvac"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Nalvac/angular-ui-monorepo.git",
+    "accountId": "6bf75464-e92c-4ad8-82b4-6fb5bc819afb"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2wfW3E9WJTEnCr9Y89s1P3zZTiL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/nalvacatinhounon/Documents/angular-ui-monorepo/node_modules/prettier",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "build.tools",
+    "show.migrate.to.gradle.popup": "false",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "dev.nx.console.project_details_files": [
+      "/Users/nalvacatinhounon/Documents/angular-ui-monorepo/e2e/project.json",
+      "/Users/nalvacatinhounon/Documents/angular-ui-monorepo/e2e/package.json",
+      "/Users/nalvacatinhounon/Documents/angular-ui-monorepo/e2e/cypress.config.ts",
+      "/Users/nalvacatinhounon/Documents/angular-ui-monorepo/e2e/eslint.config.mjs",
+      "/Users/nalvacatinhounon/Documents/angular-ui-monorepo/ui-components/project.json",
+      "/Users/nalvacatinhounon/Documents/angular-ui-monorepo/ui-components/package.json",
+      "/Users/nalvacatinhounon/Documents/angular-ui-monorepo/ui-components/eslint.config.mjs",
+      "/Users/nalvacatinhounon/Documents/angular-ui-monorepo/project.json",
+      "/Users/nalvacatinhounon/Documents/angular-ui-monorepo/eslint.config.mjs",
+      "/Users/nalvacatinhounon/Documents/angular-ui-monorepo/package.json"
+    ]
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db2fe080-fdd6-4415-871b-9cbee4850452" name="Changes" comment="" />
+      <created>1721254806981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721254806981</updated>
+      <workItem from="1721254808055" duration="916000" />
+      <workItem from="1746432908408" duration="6445000" />
+    </task>
+    <task id="LOCAL-00001" summary="t">
+      <option name="closed" value="true" />
+      <created>1746435988780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746435988780</updated>
+    </task>
+    <task id="LOCAL-00002" summary="t">
+      <option name="closed" value="true" />
+      <created>1746436579413</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746436579413</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="t" />
+    <option name="LAST_COMMIT_MESSAGE" value="t" />
+  </component>
+</project>
