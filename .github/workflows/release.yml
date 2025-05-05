@@ -1,4 +1,9 @@
 name: Release
+
+# 1️⃣ On autorise explicitement le push
+permissions:
+  contents: write
+
 on:
   push:
     tags:
@@ -7,11 +12,14 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # 2️⃣ On s’assure de persister le GITHUB_TOKEN pour les pushes
+          persist-credentials: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -32,18 +40,16 @@ jobs:
 
       - name: Prepare release branch
         run: |
-          # Crée une nouvelle branche vierge
           git checkout --orphan release
-          
-          # Copie uniquement les fichiers nécessaires
           cp -r dist/ui-components .
 
       - name: Commit and push
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add .
           git commit -m "Release ${GITHUB_REF_NAME}"
           git branch -D release || true
           git branch -m release
+          # 3️⃣ On pousse en forçant la branche release
           git push -f origin release
