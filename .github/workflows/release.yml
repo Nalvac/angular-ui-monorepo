@@ -51,7 +51,7 @@ jobs:
       - name: Copy dist to root
         run: |
           # Ici, ui-components est le nom de ta lib ; adapte si besoin
-          cp -r dist/ui-components/* ./
+          rsync -av --exclude='node_modules' dist/ui-components/* ./
           # On peut enlever le dossier dist/ si tu ne le veux pas :
           rm -rf dist
 
