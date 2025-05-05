@@ -19,21 +19,12 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Install dependencies
-        run: npm install -g nx && npm ci
-
       - name: Build library
-        run: npx nx build ui-components --configuration=production
-
-      - name: Configure Git
-        run: |
-          git config --global user.name "nalvac"
-          git config --global user.email "vacna197@gmail.com"
+        run: npx nx build ui-components
 
       - name: Prepare release branch
         run: |
           git checkout --orphan release
-          git rm -rf .
           cp -r dist/ui-components/* .
 
       - name: Commit and push to release branch
