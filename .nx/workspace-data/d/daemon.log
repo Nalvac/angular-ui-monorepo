@@ -2023,3 +2023,563 @@ Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
 [NX v20.8.1 Daemon Server] - 2025-05-05T09:04:35.326Z - Done responding to the client project-graph
 [NX v20.8.1 Daemon Server] - 2025-05-05T09:04:35.326Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
 [NX v20.8.1 Daemon Server] - 2025-05-05T09:04:35.330Z - Established a connection. Number of open connections: 4
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:07.547Z - Started listening on: /var/folders/8g/cjhb1nh130xdx6vtx0dq0tyr0000gp/T/ddc8504d052878d1e95f/d.sock
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:07.551Z - [WATCHER]: Subscribed to changes within: /Users/nalvacatinhounon/Documents/angular-ui-monorepo (native)
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:07.553Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:07.554Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:07.554Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:07.555Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:07.555Z - Done responding to the client Shutdown initiated
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:07.555Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:07.556Z - [WATCHER]: Stopping the watcher for /Users/nalvacatinhounon/Documents/angular-ui-monorepo (sources)
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:07.556Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:07.556Z - [WATCHER]: Stopping the watcher for /Users/nalvacatinhounon/Documents/angular-ui-monorepo (outputs)
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:07.556Z - Server stopped because: "Request to shutdown"
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.814Z - Started listening on: /var/folders/8g/cjhb1nh130xdx6vtx0dq0tyr0000gp/T/ddc8504d052878d1e95f/d.sock
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.815Z - [WATCHER]: Subscribed to changes within: /Users/nalvacatinhounon/Documents/angular-ui-monorepo (native)
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.822Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.823Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.823Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.824Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.938Z - Time taken for 'Load Nx Plugin: /Users/nalvacatinhounon/Documents/angular-ui-monorepo/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 112.3283340036869ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.946Z - Time taken for 'Load Nx Plugin: /Users/nalvacatinhounon/Documents/angular-ui-monorepo/node_modules/nx/src/plugins/package-json' 120.36454200744629ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.950Z - Time taken for 'loadDefaultNxPlugins' 125.51391699910164ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.972Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 147.49112501740456ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.991Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.991Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.991Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.997Z - Time taken for 'loadSpecifiedNxPlugins' 164.5774160027504ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.997Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.997Z - Established a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:52.998Z - Established a connection. Number of open connections: 4
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.000Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.000Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.000Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.000Z - Closed a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.000Z - Established a connection. Number of open connections: 4
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.000Z - Closed a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.003Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.003Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.003Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.005Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.005Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.005Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.258Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.258Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.258Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.570Z - Time taken for 'build-project-configs' 558.8959169983864ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.640Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.641Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.643Z - Time taken for 'total for creating and serializing project graph' 816.7988749742508ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.645Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.645Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 817. Response time: 4.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.650Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.650Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.650Z - Handled PRE_TASKS_EXECUTION. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.651Z - Time taken for 'preTasksExecution' 0.27616697549819946ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.700Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.700Z - Done responding to the client handleHashTasks
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.700Z - Handled HASH_TASKS. Handling time: 15. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.850Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.850Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:53.850Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 19. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:54.270Z - Established a connection. Number of open connections: 4
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:54.270Z - Closed a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:54.271Z - Established a connection. Number of open connections: 4
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:54.272Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:54.272Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:54.274Z - Time taken for 'total for creating and serializing project graph' 0.1605840027332306ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:54.275Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:54.275Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.122Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.122Z - [WATCHER]: .angular/cache/19.2.10/babel-webpack/5dcf317a25edbf7d9f54698aacf249f7fe0e60958360b93418685be8e8002f6f.json was created or restored
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.224Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.224Z - [REQUEST]: .angular/cache/19.2.10/babel-webpack/5dcf317a25edbf7d9f54698aacf249f7fe0e60958360b93418685be8e8002f6f.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.224Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.228Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.228Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.228Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.229Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.229Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.229Z - Time taken for 'hash changed files from watcher' 1.6103340089321136ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.230Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.230Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.230Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.232Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.232Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.232Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.262Z - Time taken for 'build-project-configs' 30.327665984630585ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.295Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.295Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.295Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.295Z - Time taken for 'total execution time for createProjectGraph()' 26.113332986831665ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.330Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.331Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.331Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.335Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.335Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.335Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.336Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.336Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.336Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.336Z - Time taken for 'hash changed files from watcher' 1.5090829730033875ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.338Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.338Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.338Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.350Z - Time taken for 'build-project-configs' 12.213791996240616ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.377Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.377Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.377Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.377Z - Time taken for 'total execution time for createProjectGraph()' 19.682042002677917ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.431Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.432Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.492Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.492Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.534Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.534Z - [REQUEST]: .angular/cache/19.2.10/babel-webpack/f53da22b09a0f5049bd97da25bd775498f4599526ad961b3abeb764305ca1ce0.json,.angular/cache/19.2.10/babel-webpack/1f4b5e5403db3a468082b209a6fdda8742a6602dc666cd8138a38623ec89c5bf.json,.angular/cache/19.2.10/babel-webpack/81725c1fe5a4d36e55585bb9a46800e4a0513491476f283b4572f7f2b80297bb.json,.angular/cache/19.2.10/babel-webpack/24640992bb787d1f6c550fa696f76e47b5c48d815450b218cea641de43e73c88.json,.angular/cache/19.2.10/babel-webpack/f8333cf004d8482b46619c1511639f0374235f73065bec391f048726cc34a01e.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.534Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.539Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.539Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.539Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.539Z - Time taken for 'hash changed files from watcher' 1.869416981935501ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.540Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.540Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.540Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.542Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.542Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.542Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.558Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.558Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.569Z - Time taken for 'build-project-configs' 27.72212502360344ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.598Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.599Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.599Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.599Z - Time taken for 'total execution time for createProjectGraph()' 20.534333020448685ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.660Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.660Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.660Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.666Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.666Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.666Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.666Z - Time taken for 'hash changed files from watcher' 1.5491670072078705ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.668Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.668Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.668Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.670Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.670Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.670Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.681Z - Time taken for 'build-project-configs' 12.629916995763779ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.707Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.707Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.707Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:56.707Z - Time taken for 'total execution time for createProjectGraph()' 19.893832981586456ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.154Z - [WATCHER]: .angular/cache/19.2.10/babel-webpack/5b2722b70c50adf7eacf7bdc8168e1e3f9439c969b71265e545230fbbc2dfdee.json was created or restored
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.154Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.256Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.257Z - [REQUEST]: .angular/cache/19.2.10/babel-webpack/5b2722b70c50adf7eacf7bdc8168e1e3f9439c969b71265e545230fbbc2dfdee.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.257Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.261Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.261Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.261Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.261Z - Time taken for 'hash changed files from watcher' 1.9887499809265137ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.262Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.262Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.262Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.265Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.265Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.265Z - Handled HASH_GLOB. Handling time: 3. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.294Z - Time taken for 'build-project-configs' 28.862540990114212ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.320Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.321Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.321Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.321Z - Time taken for 'total execution time for createProjectGraph()' 21.556959003210068ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.379Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.379Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.438Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.439Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.481Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.481Z - [REQUEST]: .angular/cache/19.2.10/babel-webpack/6b38af2cb997fde9296eba3e45369ea6537c8dd8ff47c5aeedb41f22dc096322.json,.angular/cache/19.2.10/babel-webpack/57a0051caa8eb754b203f7db49b6006ead86eca72bae2ba48b2d7ac723a966ce.json,.angular/cache/19.2.10/babel-webpack/37f705067ccd3c510e9419e22e358422cafdd23baa1ea3293beec39eaafe1d7e.json,.angular/cache/19.2.10/babel-webpack/3199f6fc49ae3f5dd9bcc16674faaba1ec34c3f83541fc975cd03636a44198cf.json,.angular/cache/19.2.10/babel-webpack/1f9727ef5a4411c71b36cd39ad623097c4e03f62ebdd2708fa250f1974cd1fd9.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.481Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.485Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.485Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.485Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.486Z - Time taken for 'hash changed files from watcher' 1.60445898771286ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.487Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.487Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.487Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.489Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.489Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.489Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.519Z - Time taken for 'build-project-configs' 27.59775000810623ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.551Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.551Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.551Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.551Z - Time taken for 'total execution time for createProjectGraph()' 27.938874989748ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.561Z - [WATCHER]: 7 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.561Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.636Z - [WATCHER]: 8 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.636Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.663Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.663Z - [REQUEST]: .angular/cache/19.2.10/babel-webpack/3199f6fc49ae3f5dd9bcc16674faaba1ec34c3f83541fc975cd03636a44198cf.json,.angular/cache/19.2.10/babel-webpack/91b6097514b08a9b6abdfb61f404c70ab4a78a318cfb4bf279517c8ba0dea4bd.json,.angular/cache/19.2.10/babel-webpack/e527b1478219c79ca41b53a61fa8c2c6841ee75c47e222e244e4fd63dea5c66f.json,.angular/cache/19.2.10/babel-webpack/31e0a6d75cb6c242830baae3ef69dae4587a9d2ab8f33605681b88a18a919189.json,.angular/cache/19.2.10/babel-webpack/37f705067ccd3c510e9419e22e358422cafdd23baa1ea3293beec39eaafe1d7e.json,.angular/cache/19.2.10/babel-webpack/1f9727ef5a4411c71b36cd39ad623097c4e03f62ebdd2708fa250f1974cd1fd9.json,.angular/cache/19.2.10/babel-webpack/59ca730f9f70923ef1aa75b36b4a2dd91ce2b34c82a05ffe8a5dd0d10a0d2281.json,.angular/cache/19.2.10/babel-webpack/2c58cadf61bb46ed05d51ee060d855658264e59f7f9ffd420c1c0e84ac9a2c9a.json,.angular/cache/19.2.10/babel-webpack/198d0393aa6c47ceba5bdf6c9875c434064203134e7ed6198448212d402fa344.json,.angular/cache/19.2.10/babel-webpack/9e065fbb2141b755ae05fd172f82fa234082a4349178f6d2d4c08aae57639ccb.json,.angular/cache/19.2.10/babel-webpack/307d2135074de6ed83a24429b8e06d2d0717fdb701d309967e97633b0699f584.json,.angular/cache/19.2.10/babel-webpack/ae173562f187dbf6b92668823a7cfbac383a2bc064d6b1073986c93cb179fe40.json,.angular/cache/19.2.10/babel-webpack/cb0778bfa966449eca8efc1f2d318ae1d71e1af6e9dc02f6a30e1d70cb2bee79.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.663Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.667Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.667Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.667Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.667Z - Time taken for 'hash changed files from watcher' 1.7484579980373383ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.668Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.668Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.668Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.670Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.670Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.670Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.698Z - Time taken for 'build-project-configs' 26.655500024557114ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.729Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.730Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.730Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.730Z - Time taken for 'total execution time for createProjectGraph()' 23.726875007152557ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.734Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.734Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.834Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.836Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.836Z - [REQUEST]: .angular/cache/19.2.10/babel-webpack/218781c6aa0250d6c3f1a889a047a90316e8ac835b73fd618d965724d949a105.json,.angular/cache/19.2.10/babel-webpack/7c0633684cf8eae4bc36035054a54725acb3c9caec0fb9c39a935de04620f0bc.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.836Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.840Z - [WATCHER]: 6 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.841Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.841Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.841Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.841Z - Time taken for 'hash changed files from watcher' 1.7378329932689667ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.843Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.843Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.843Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.845Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.845Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.845Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.872Z - Time taken for 'build-project-configs' 27.52495902776718ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.906Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.906Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.906Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.906Z - Time taken for 'total execution time for createProjectGraph()' 27.395916998386383ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.942Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.942Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.942Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.946Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.946Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.946Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.946Z - Time taken for 'hash changed files from watcher' 1.6049579977989197ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.947Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.947Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.947Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.949Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.949Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.949Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.949Z - [WATCHER]: 24 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.950Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.961Z - Time taken for 'build-project-configs' 11.377582997083664ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.987Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.987Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.987Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:57.987Z - Time taken for 'total execution time for createProjectGraph()' 18.709500014781952ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.007Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.007Z - [WATCHER]: 30 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.051Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.051Z - [REQUEST]: .angular/cache/19.2.10/babel-webpack/5dc499ebb01f2851c3fb9fd583fdb00b179c2768792879e85782cb30c74762db.json,.angular/cache/19.2.10/babel-webpack/827ed122482ca3827993d138721f972f30b819d0453744a4a359a586d6529a6a.json,.angular/cache/19.2.10/babel-webpack/80a78e0d50ca22200c6e8327f7a7ac5ad11c86ce2ef62583cb8b6e30236ea9f8.json,.angular/cache/19.2.10/babel-webpack/31ec904b0090c000cca36a508b9f1d19a4c835ae1ae32add04cf7a69528f4015.json,.angular/cache/19.2.10/babel-webpack/e5a6a2ce2762a8a0838dd550cfae0fb22693852e8d322ded4edbebd522b69bc9.json,.angular/cache/19.2.10/babel-webpack/0fac3642fee8f4045a4ad1af90c3297f9980ca5449010953d5fa0c7ebe011f36.json,.angular/cache/19.2.10/babel-webpack/c571b548e621804bc3add29b563cdbeeaaa058e073467f98b277bbb56cca9805.json,.angular/cache/19.2.10/babel-webpack/a9e53eafbf5766530f4036d0ee0591a0f377bf2ec67ebc1947dc585a9cae5f55.json,.angular/cache/19.2.10/babel-webpack/6021ddb75a7275b2fc3770d79817170fb513c49b46ce88d50f44c7f880b60f3b.json,.angular/cache/19.2.10/babel-webpack/03c8e6d16af77d23493fccf013d8cb6ee26cded2a469d90984b8dc00fda20159.json,.angular/cache/19.2.10/babel-webpack/4747567b87ed4e0522dc4ce0bf170cc25fdfaa6e4a8077007b22e27325625803.json,.angular/cache/19.2.10/babel-webpack/44f2a5ce03459dc3f1df4b38f2f6266cf2636316029b77de6654de581ff22fc9.json,.angular/cache/19.2.10/babel-webpack/0c888ac5e8f176061974868384982fbb936eaba901cbc039eae05141cfdd55e1.json,.angular/cache/19.2.10/babel-webpack/9237a19fec75c98ef02accea47f7e765500c318f60ecebcdadb3a656fb663c0f.json,.angular/cache/19.2.10/babel-webpack/9d39ed930811e8939cc25ef003e3e543682225991d36c259ac41ecc30553ed54.json,.angular/cache/19.2.10/babel-webpack/9cd26bcfd2c3ccbc66308ca90a63913bf2c359e9ba5155d2f5f208cf262994c6.json,.angular/cache/19.2.10/babel-webpack/e2a5708bb6304219d765f51afd96d9219930e82c65892b6f3c9f89ea54c1fc94.json,.angular/cache/19.2.10/babel-webpack/9047f59f06998ad5af300be07d88a84349874c1192a65ae28c98d96705302dca.json,.angular/cache/19.2.10/babel-webpack/a10ae640b063db53dbfba18160af70da98835fcb6b51f867433d6b0612e9fc76.json,.angular/cache/19.2.10/babel-webpack/fa50ddd71f821b0938a1da9dc73cc45e6a334bf37aac3f839916e37b369af70d.json,.angular/cache/19.2.10/babel-webpack/a0d585eabba4431f3f4718e87aff051e1ebef17b7b22cef187b6f98a0e4cbc46.json,.angular/cache/19.2.10/babel-webpack/91d4a04529e84d5829cc99869feb9bf22a9baa2107e6dcb2c12cc61ded3df0fc.json,.angular/cache/19.2.10/babel-webpack/7d359887290687b2c8d9bc83b0f88e34b7e9df9ef7adf4f0640bc48f769210c1.json,.angular/cache/19.2.10/babel-webpack/0bf5dcf379fd66dc58130fdf033f0dce4eee4594465776af717259b86c80bb57.json,.angular/cache/19.2.10/babel-webpack/63b78b74eb8ded816344fafbb05d6edff4216024176da13958dd3f33af7b7614.json,.angular/cache/19.2.10/babel-webpack/75f7e17e642617d0006b869303d3e95ae8cbfcfe0154243b43deb4ce5d291818.json,.angular/cache/19.2.10/babel-webpack/3cc958c838165580ff62f6a93171118c9712bb8c5f59cb3102ce44c820d965a9.json,.angular/cache/19.2.10/babel-webpack/96e1622e4406c603c3a210b857bc75352b8f70399a226f05addda8020d40d45d.json,.angular/cache/19.2.10/babel-webpack/1dfb1ebdefda2bc6465f5cb5d76c0e37b16d095655b7bfaf233634a55dd20b24.json,.angular/cache/19.2.10/babel-webpack/82bbd47bcf92fc134c5f87d56dc4c765361c89633291ec07e834b1c090038ce3.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.051Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.055Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.056Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.056Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.056Z - Time taken for 'hash changed files from watcher' 1.983792006969452ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.057Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.057Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.057Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.058Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.058Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.058Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.061Z - [WATCHER]: 34 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.062Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.085Z - Time taken for 'build-project-configs' 25.914000004529953ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.122Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.122Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.122Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.122Z - Time taken for 'total execution time for createProjectGraph()' 27.106457978487015ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.126Z - [WATCHER]: 45 file(s) created or restored, 55 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.126Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.164Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.164Z - [REQUEST]: .angular/cache/19.2.10/babel-webpack/f751e790a88776cd184fe46fdf5b6b12478316a00a25b79d8cca332f22087165.json,.angular/cache/19.2.10/babel-webpack/89dea32a81df9711e93690aa91501bb7da37ed7da3adc408be0755b9a0d15164.json,.angular/cache/19.2.10/babel-webpack/97bf76478f4c5ee0060726ab25349cfff699b65a3cbfbd951af7a4ad055c8562.json,.angular/cache/19.2.10/babel-webpack/6c3ac8f0798a1fb4fb9d7d85dd7e2ec856d3ff8092e82d82de4ae067c5ba9bb2.json,.angular/cache/19.2.10/babel-webpack/7cb7b05ba937e7918cf5e6d871c924133294b881c17f9b5c8150ffdeefd8981d.json,.angular/cache/19.2.10/babel-webpack/56122ce7a96c2161302cf4c21ad3349866446fb27bb9c74df00a5ea6e6859890.json,.angular/cache/19.2.10/babel-webpack/3863532ec77c3e60008b55b83ecfe0ae848a02b834c958dd2ee5e499b8155720.json,.angular/cache/19.2.10/babel-webpack/b9ae6d0bd3cecc3b3570df1bc462b2b84ff4d15005b1e76cf6210e4665cdbd87.json,.angular/cache/19.2.10/babel-webpack/8ac2f0db4e8a1b3ebe2a44090d95481146ad490805b9cbc117240b3eb3954f74.json,.angular/cache/19.2.10/babel-webpack/132d405dd320e44750ab3c8c6f9fa61544c88f69148286246e66717faab2fcc2.json,.angular/cache/19.2.10/babel-webpack/d114aafc18f0c52caeecafb7a93d4d92ebdfa00ccf93163a649ca159e141e64a.json,.angular/cache/19.2.10/babel-webpack/db54807936d6bb67f3209d5802f6898544087c40867556fcdae498ae8ed71056.json,.angular/cache/19.2.10/babel-webpack/786c89bfe6fc0c129951843538b2076aef62690374beaa76a045d07120565005.json,.angular/cache/19.2.10/babel-webpack/cd552df95861695271eae30aa38b89c731aa81868f9a44cb3cfc875d345ccb5c.json,.angular/cache/19.2.10/babel-webpack/2fb040636013876f5621fb6eb6caa949205d2154c9e6a8f5c427094887b4c195.json,.angular/cache/19.2.10/babel-webpack/267f251a5971e4d040ad424e0c7a1caf91c3a1d0ffb76918115a7c0f707f86e7.json,.angular/cache/19.2.10/babel-webpack/2303999b64cc3a1683dfd108f94881dde5714bbd6659800628070f7d3785d435.json,.angular/cache/19.2.10/babel-webpack/d04ee5b213a317d49727febbe1283191230150317ad96dded3043a33759851fd.json,.angular/cache/19.2.10/babel-webpack/eb870560651c549a7f6ebef03691c084b8aa6beeb4613c10cf7ebfcaa3e2cd52.json,.angular/cache/19.2.10/babel-webpack/b5d1162a9d5475fe703a29911c3020aa811245559d463d755d7dd38523ee3778.json,.angular/cache/19.2.10/babel-webpack/a24072f0b74c42ae8d97351273f4f7a142a81f24ea0c418f46933a7c032b99ff.json,.angular/cache/19.2.10/babel-webpack/457e05c701d2ac0aa863d075dbfa68107761a01391f3ecf8baa744eff945fe1c.json,.angular/cache/19.2.10/babel-webpack/229bb360a12514173a67779ce2024eb3397accab4f3586d5adc31fc379a8690a.json,.angular/cache/19.2.10/babel-webpack/7cb01ad1991e002316c593877df7b76964a0730baa4e4f20f2059b476f95775f.json,.angular/cache/19.2.10/babel-webpack/2792bae7fcf88d23d473252a9c5ee2baa9121b052dd3f6d5667d7720a0498b89.json,.angular/cache/19.2.10/babel-webpack/24769b404fc54ed05c7f24527e98eba476dcb5c2a3a1b348605dda0116d555cf.json,.angular/cache/19.2.10/babel-webpack/204ee8f5358c54d7d66ba8e82ab15a15e16ee0b802a30dfe0290a112cc5790e3.json,.angular/cache/19.2.10/babel-webpack/71082405b13e5e1a9d285d72abfec28d9bb277fec97de94554b4db0b587767b9.json,.angular/cache/19.2.10/babel-webpack/957cff2e040d26c84ef9498c5628a12e39bd8776fdb02b28479ddd7e760341f0.json,.angular/cache/19.2.10/babel-webpack/4fa43fd53011958cd879b46bedc8bd4d3a5b76f805d74e163470c61091c89ab3.json,.angular/cache/19.2.10/babel-webpack/628b140cfecf6afe613b6ddadc4ef813e854d40418d2d4d704aa153eacbcd6dc.json,.angular/cache/19.2.10/babel-webpack/f5a34a638d60b96f95c7e9fe942ca2117c06cf09c3504dcbd6600ffead9d6089.json,.angular/cache/19.2.10/babel-webpack/c8e10074d96b749d47af6eb9002d22a560a06782805522fc319ba5b761c58d2f.json,.angular/cache/19.2.10/babel-webpack/2162bade79f8a21cc02281965e12ff24dbeb4d8aa91406213058e522f2c1285d.json,.angular/cache/19.2.10/babel-webpack/4d4cce137803b5eed97d3aee899a230c97a499fbf160a3860b1caf0f1561fc45.json,.angular/cache/19.2.10/babel-webpack/8278823fd2ac97dda6154fd0dfe707827f18a1a651ef3e710312e6f91a0758ea.json,.angular/cache/19.2.10/babel-webpack/d43a3d2675583253eda4825c22c4dfdcf3b4914ef4589202e6cb057a60bf1b78.json,.angular/cache/19.2.10/babel-webpack/f96b6fee0151348be30a463121b9c08aaed06f562c93539cd3b681d847a13e6f.json,.angular/cache/19.2.10/babel-webpack/c9f958cd8c686ce95c4f06d1c56ad3cb30b40fb560b3031e9c3b23c93419cb51.json,.angular/cache/19.2.10/babel-webpack/00f77f544516ed080bd9f48d860abab71a91478f71b6c3f3473a228d32959e1b.json,.angular/cache/19.2.10/babel-webpack/fbefe40220b55122bedb1c40c8236b16519395f76c634b056c867b8c29cf137f.json,.angular/cache/19.2.10/babel-webpack/9fba47b0bda566cec302c0eb780f5c78e4344405668f06af9c522991aa8b3f4f.json,.angular/cache/19.2.10/babel-webpack/eb498bbe27096d4224516d4d6cf50e717ab5d6f464fb3f178e9c8c76a969e524.json,.angular/cache/19.2.10/babel-webpack/e005be78bc31f51acc19284406649d42db189622d96a6e084774da8f09dc5d06.json,.angular/cache/19.2.10/babel-webpack/93fc74d2cfe3954af1f519a445bd5b577f0fc4b7d85b93797775c7548a4170db.json,.angular/cache/19.2.10/babel-webpack/7d359887290687b2c8d9bc83b0f88e34b7e9df9ef7adf4f0640bc48f769210c1.json,.angular/cache/19.2.10/babel-webpack/03c8e6d16af77d23493fccf013d8cb6ee26cded2a469d90984b8dc00fda20159.json,.angular/cache/19.2.10/babel-webpack/89c1beefb1295627a871980baabacba4ed1f0b8f4f78531cd45f37f429b4516a.json,.angular/cache/19.2.10/babel-webpack/4747567b87ed4e0522dc4ce0bf170cc25fdfaa6e4a8077007b22e27325625803.json,.angular/cache/19.2.10/babel-webpack/9047f59f06998ad5af300be07d88a84349874c1192a65ae28c98d96705302dca.json,.angular/cache/19.2.10/babel-webpack/7ac602f5f4898390e7e8b84e1c0ccf0d4d01d5d359e343ac12952f2f7d665c91.json,.angular/cache/19.2.10/babel-webpack/523aad834e3cc3931d4e60c6f05de916ca579282b4d0f13b15c7dd094bf32974.json,.angular/cache/19.2.10/babel-webpack/24a15d9e505fb893488365a75a622566b0d4ff98988a9dbf0aa219cbd2d2f28c.json,.angular/cache/19.2.10/babel-webpack/b610fa8ddce4cc75cdcde41f93633940dd0f0388316899bbcf5f11ee5b987968.json,.angular/cache/19.2.10/babel-webpack/9237a19fec75c98ef02accea47f7e765500c318f60ecebcdadb3a656fb663c0f.json,.angular/cache/19.2.10/babel-webpack/015d90a68907746cf48e9365c89ce152ef87a01c2dbba425f00bd3b2263417c6.json,.angular/cache/19.2.10/babel-webpack/31ec904b0090c000cca36a508b9f1d19a4c835ae1ae32add04cf7a69528f4015.json,.angular/cache/19.2.10/babel-webpack/519dfdbea54a0c769b54f4ef660611a22adebb86cd07b71e176fbf55b1d0d299.json,.angular/cache/19.2.10/babel-webpack/2b471e950b738f24e33d70208a1513b4300eed058cf6aa555a221fa0f956d3b8.json,.angular/cache/19.2.10/babel-webpack/827ed122482ca3827993d138721f972f30b819d0453744a4a359a586d6529a6a.json,.angular/cache/19.2.10/babel-webpack/998c6deb58b3626a9f7cf52d49dc91ceb630bba582075bad4b0d8225662a0cae.json,.angular/cache/19.2.10/babel-webpack/2edd27b42257ac9ed3462850178d0c27448bc292a7bfe6af550cba64a0edc064.json,.angular/cache/19.2.10/babel-webpack/44f2a5ce03459dc3f1df4b38f2f6266cf2636316029b77de6654de581ff22fc9.json,.angular/cache/19.2.10/babel-webpack/04cb36862c43cada5c61442d13e45c13afe42e38cdc54edfadd0fd81c5148008.json,.angular/cache/19.2.10/babel-webpack/a10ae640b063db53dbfba18160af70da98835fcb6b51f867433d6b0612e9fc76.json,.angular/cache/19.2.10/babel-webpack/8d050e2aa58aa8ad4fdbdb550f1b310d8ee289140e6e766bff8d888bf0b3eccf.json,.angular/cache/19.2.10/babel-webpack/7bd3f28c35a47e18ab8dd5d42c9e444f6851499f9e81ea9ac6d6e3c933d4a5ee.json,.angular/cache/19.2.10/babel-webpack/6021ddb75a7275b2fc3770d79817170fb513c49b46ce88d50f44c7f880b60f3b.json,.angular/cache/19.2.10/babel-webpack/96e1622e4406c603c3a210b857bc75352b8f70399a226f05addda8020d40d45d.json,.angular/cache/19.2.10/babel-webpack/a0d585eabba4431f3f4718e87aff051e1ebef17b7b22cef187b6f98a0e4cbc46.json,.angular/cache/19.2.10/babel-webpack/63b78b74eb8ded816344fafbb05d6edff4216024176da13958dd3f33af7b7614.json,.angular/cache/19.2.10/babel-webpack/a9e53eafbf5766530f4036d0ee0591a0f377bf2ec67ebc1947dc585a9cae5f55.json,.angular/cache/19.2.10/babel-webpack/75f7e17e642617d0006b869303d3e95ae8cbfcfe0154243b43deb4ce5d291818.json,.angular/cache/19.2.10/babel-webpack/9cd26bcfd2c3ccbc66308ca90a63913bf2c359e9ba5155d2f5f208cf262994c6.json,.angular/cache/19.2.10/babel-webpack/82bbd47bcf92fc134c5f87d56dc4c765361c89633291ec07e834b1c090038ce3.json,.angular/cache/19.2.10/babel-webpack/e2a5708bb6304219d765f51afd96d9219930e82c65892b6f3c9f89ea54c1fc94.json,.angular/cache/19.2.10/babel-webpack/93892a868d3db42d1109227a8839c8323a2d9de34afc5a8a9491a4441353520f.json,.angular/cache/19.2.10/babel-webpack/be13deae301996291ab4e07837127c529882317c2db1329b0e26403a073ee0f7.json,.angular/cache/19.2.10/babel-webpack/63de9ae71598f9f3a5ee61d1c19b73ac68d5b2c423d9d4ebec4c7b9948109afc.json,.angular/cache/19.2.10/babel-webpack/e145dfbed1b2e86b42b39f18cd5532c932ebf84725928ed60660add7fe125c6a.json,.angular/cache/19.2.10/babel-webpack/80a78e0d50ca22200c6e8327f7a7ac5ad11c86ce2ef62583cb8b6e30236ea9f8.json,.angular/cache/19.2.10/babel-webpack/0fac3642fee8f4045a4ad1af90c3297f9980ca5449010953d5fa0c7ebe011f36.json,.angular/cache/19.2.10/babel-webpack/0c888ac5e8f176061974868384982fbb936eaba901cbc039eae05141cfdd55e1.json,.angular/cache/19.2.10/babel-webpack/d5615841639225fd433e310a03d80621536ed3d70e3dbc774bdc69d7718e16ff.json,.angular/cache/19.2.10/babel-webpack/0bf5dcf379fd66dc58130fdf033f0dce4eee4594465776af717259b86c80bb57.json,.angular/cache/19.2.10/babel-webpack/1dfb1ebdefda2bc6465f5cb5d76c0e37b16d095655b7bfaf233634a55dd20b24.json,.angular/cache/19.2.10/babel-webpack/5dc499ebb01f2851c3fb9fd583fdb00b179c2768792879e85782cb30c74762db.json,.angular/cache/19.2.10/babel-webpack/f584a12446e0047eb0a1e058956f57f66afa5e72d80f446ef53cf4e260273a4a.json,.angular/cache/19.2.10/babel-webpack/0eb467e7f73046df4c5ba07789a4c1d16033638c845e8e9a3713e5c4d5269681.json,.angular/cache/19.2.10/babel-webpack/e5a6a2ce2762a8a0838dd550cfae0fb22693852e8d322ded4edbebd522b69bc9.json,.angular/cache/19.2.10/babel-webpack/285181cf8ba4b06f99c36d2b5569fbf08f0d934b05e93d2db67330abd257d193.json,.angular/cache/19.2.10/babel-webpack/9d39ed930811e8939cc25ef003e3e543682225991d36c259ac41ecc30553ed54.json,.angular/cache/19.2.10/babel-webpack/2ddb8bb76b7ca2e6449738eed32ac7c9d9c134b91b2887abd1104cfe7190e5c0.json,.angular/cache/19.2.10/babel-webpack/3cc958c838165580ff62f6a93171118c9712bb8c5f59cb3102ce44c820d965a9.json,.angular/cache/19.2.10/babel-webpack/80f07d5a8d679afca2332395ca96944611f09b20930ca2a45cf30f5a59e59ce7.json,.angular/cache/19.2.10/babel-webpack/7cc7416730bdac44f0aa6cfcfeb7502a06193692b0e0193eeb71e91c75c1ea25.json,.angular/cache/19.2.10/babel-webpack/fa50ddd71f821b0938a1da9dc73cc45e6a334bf37aac3f839916e37b369af70d.json,.angular/cache/19.2.10/babel-webpack/00f7158d0f3ad6cbc80c2225fc3b4023f801d807236643ad8a79cc717de9c7c4.json,.angular/cache/19.2.10/babel-webpack/91d4a04529e84d5829cc99869feb9bf22a9baa2107e6dcb2c12cc61ded3df0fc.json,.angular/cache/19.2.10/babel-webpack/c571b548e621804bc3add29b563cdbeeaaa058e073467f98b277bbb56cca9805.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.164Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.168Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.168Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.168Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.168Z - Time taken for 'hash changed files from watcher' 2.5116669833660126ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.169Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.169Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.169Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.171Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.171Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.171Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.180Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.180Z - [WATCHER]: 15 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.199Z - Time taken for 'build-project-configs' 26.672917008399963ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.226Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.226Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.226Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.226Z - Time taken for 'total execution time for createProjectGraph()' 20.825584024190903ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.233Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.233Z - [WATCHER]: 31 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.283Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.283Z - [REQUEST]: .angular/cache/19.2.10/babel-webpack/ca31c8e17f08d407bc4fed14f14f03653bbddb730ba24e92ec02dd1e31c3e4b2.json,.angular/cache/19.2.10/babel-webpack/9cf8da713d7c649bb99ade03575d202253e5169554e9e3941780784cdc19b039.json,.angular/cache/19.2.10/babel-webpack/d5d4c869d6c5e907f91864b532e3e67b1add19711ec87555003b9d4b0a18b05f.json,.angular/cache/19.2.10/babel-webpack/7f29c9f2054986f3e5b3c2fb646f8e06e9d4978fdf3af8e132aaaec0acdf1475.json,.angular/cache/19.2.10/babel-webpack/8de40762638b832f44a02d3090f2328233e1ecc82f7390dd486894fc0e5afc83.json,.angular/cache/19.2.10/babel-webpack/b65055c29e1f26731c4f94d60e930b8985733c24ec31c8c2c2c300a7cbb2a7d2.json,.angular/cache/19.2.10/babel-webpack/47677d339b24c69a02f59e5c8ce37c0da9c5ae72fe12f1d0e41a7569c9dceb0f.json,.angular/cache/19.2.10/babel-webpack/03016ffaff25558af82cf76e2f35ce540733d480c1d312ae2aeb06a811ce8739.json,.angular/cache/19.2.10/babel-webpack/920e9f40fe9aeb514ec6a89076f1fd5b10e5e45481b8867156b1aca79b61ec15.json,.angular/cache/19.2.10/babel-webpack/f60091c03cb09b71f0acb9c47b6c1235aebba38617518ec95978d316b829dd81.json,.angular/cache/19.2.10/babel-webpack/bcfd6c3d1d0a4b0131552492bebe444ceff7e9fca2bfe277a2d0a64d165dc402.json,.angular/cache/19.2.10/babel-webpack/28db8e9d7f1ccfd9d41733d71decf43fadd7fdf1946ee8fb691603c8b7ca3bd6.json,.angular/cache/19.2.10/babel-webpack/a70c77bd844ce5b7d58e662f7d99ff085a8e61f36c2c9c0b1b37fbc55f0024e3.json,.angular/cache/19.2.10/babel-webpack/92fd8ba556e17cf97477c1d2775e60b460fc05a9d8433995dea6bcd64c7ba3a9.json,.angular/cache/19.2.10/babel-webpack/198441ca98065608fe6a93ff40e0be65cf412553b570a9a274f6cd85aa088e56.json,.angular/cache/19.2.10/babel-webpack/f52f094923be042f479ec1ac2720d3b5bd7d1a2dc7e6b285e01754656565c159.json,.angular/cache/19.2.10/babel-webpack/477a7446efb0dc42c6b4488f586d97323f0b4bd7a851202d48f3e5e8f6c90c44.json,.angular/cache/19.2.10/babel-webpack/2fe74080015bee56b008cf6c1c10a6a03a556d8b7eb67656e8f509e632191a49.json,.angular/cache/19.2.10/babel-webpack/de18254de0a361fda045e8bcce05abe9137cb40e499b480e29d63215da593222.json,.angular/cache/19.2.10/babel-webpack/fddf897c599732a2e70099b56da0dca429936db488a018b22fff5ba348be7166.json,.angular/cache/19.2.10/babel-webpack/c302414436526ab0f9e5f7861584b719cd7a06b040fe7d61206ac0ecb7afa10f.json,.angular/cache/19.2.10/babel-webpack/212ad0bd945c151c38e9eaef0381f39697ada57691842b9d587d6ad25321a63f.json,.angular/cache/19.2.10/babel-webpack/a03bc7919901d1e9cb2eee1a63e19808b8c19233652615b0ad28335a8fa5d268.json,.angular/cache/19.2.10/babel-webpack/bf1e0d9814cbe86f50f440d25cca7900385581b084965c7a473f90723147147f.json,.angular/cache/19.2.10/babel-webpack/d2cdcb6db63717a9bac9d08ee2170ca4178107fa22be495a0b36af438fa05c88.json,.angular/cache/19.2.10/babel-webpack/f436e8905aaa8d21c5bec9e7ccdb79f826c0888895b90386d4836c66f5c3663b.json,.angular/cache/19.2.10/babel-webpack/9ef30db127a6723702c54e91198d41450d8a432dd9c05ee7cb122b35e8e8765e.json,.angular/cache/19.2.10/babel-webpack/d07f5d2107041b3770d5fefee68856fe064b9681cd754e4c423b9f7a8b6df51e.json,.angular/cache/19.2.10/babel-webpack/15c6990a1f97db38ca79bf8638ba9158efe9b255f6cc1d8660ff19a1780b698a.json,.angular/cache/19.2.10/babel-webpack/26097a084bd9897c87e48f3cf2d05255728c62a9ec5f9c42630e517d43beb5be.json,.angular/cache/19.2.10/babel-webpack/71d1e9027380f8553428bb0991478e932f79965548bdeb9e32db6b9df5f2b14e.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.283Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.287Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.287Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.287Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.287Z - Time taken for 'hash changed files from watcher' 2.147040992975235ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.288Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.288Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.288Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.289Z - [WATCHER]: 33 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.289Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.291Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.291Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.291Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.319Z - Time taken for 'build-project-configs' 27.805000007152557ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.351Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.352Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.352Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.352Z - Time taken for 'total execution time for createProjectGraph()' 21.106207996606827ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.352Z - [WATCHER]: 88 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.353Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.392Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.392Z - [REQUEST]: .angular/cache/19.2.10/babel-webpack/8718837dd2b17e2c86ab2d070c2057c3e04e6c8db96abe95bf7522591b2e5a6b.json,.angular/cache/19.2.10/babel-webpack/f60091c03cb09b71f0acb9c47b6c1235aebba38617518ec95978d316b829dd81.json,.angular/cache/19.2.10/babel-webpack/d2cdcb6db63717a9bac9d08ee2170ca4178107fa22be495a0b36af438fa05c88.json,.angular/cache/19.2.10/babel-webpack/b65055c29e1f26731c4f94d60e930b8985733c24ec31c8c2c2c300a7cbb2a7d2.json,.angular/cache/19.2.10/babel-webpack/bb18093601575ffda660ea55226e9cb48dd999b1619f289495d65aba004bd536.json,.angular/cache/19.2.10/babel-webpack/acd14392dae3c4de25383d7dea1800fa54fb25d45543496ce77e0f0fcee33d36.json,.angular/cache/19.2.10/babel-webpack/ff50a2c8cd2d3d251d874377351bf7c1d59450cc5bf831799c588664cc3c590d.json,.angular/cache/19.2.10/babel-webpack/3c71f6b758fbccf0cbb2f47e8d3881c385fc2da860971b892fe334c03567c58c.json,.angular/cache/19.2.10/babel-webpack/a9600c471a3fcbb699651ea0a536c1e0cd52d3d42bbb4d6b431b677a90a45f9e.json,.angular/cache/19.2.10/babel-webpack/26097a084bd9897c87e48f3cf2d05255728c62a9ec5f9c42630e517d43beb5be.json,.angular/cache/19.2.10/babel-webpack/e05ca2df8a9b46105482760ac542b8e9b3aacd82a7fe841bf8f1d8cc44037c82.json,.angular/cache/19.2.10/babel-webpack/3602a7249c22fb8d08d06b4b6beb47cc16dab6f1740032aa1640afd0bb540353.json,.angular/cache/19.2.10/babel-webpack/28db8e9d7f1ccfd9d41733d71decf43fadd7fdf1946ee8fb691603c8b7ca3bd6.json,.angular/cache/19.2.10/babel-webpack/ca31c8e17f08d407bc4fed14f14f03653bbddb730ba24e92ec02dd1e31c3e4b2.json,.angular/cache/19.2.10/babel-webpack/c302414436526ab0f9e5f7861584b719cd7a06b040fe7d61206ac0ecb7afa10f.json,.angular/cache/19.2.10/babel-webpack/427598da304288f9256afc496c50061b2065c23a9d4510a7afbd977677a253bd.json,.angular/cache/19.2.10/babel-webpack/eede0087b74383ca0a8a7e3cdb074a588aa9da935ce80ff3d6c9e4f2c6697bcc.json,.angular/cache/19.2.10/babel-webpack/da3e2c20a2a3bbaad27bdc7ba01a60d11115a876bcfa868478db55e48a34997a.json,.angular/cache/19.2.10/babel-webpack/11a94137e68fc0124661422d55c0eb9ac94da8a234cd7b71e8e9929eda6a7f06.json,.angular/cache/19.2.10/babel-webpack/993b220dc2d0754a1e0dd6fe6dc6ef1e75297f919d080a29eaa1911a16ebe0a7.json,.angular/cache/19.2.10/babel-webpack/d5d4c869d6c5e907f91864b532e3e67b1add19711ec87555003b9d4b0a18b05f.json,.angular/cache/19.2.10/babel-webpack/bb0840b8db9dff095d03c4ff9ce80c8fee6ac364c4c9d7a1b0fcba01b3e8d953.json,.angular/cache/19.2.10/babel-webpack/dd52909796c4d067be3e9dad2a8d1156732ac26eb6d00ebe208c0a772b165a32.json,.angular/cache/19.2.10/babel-webpack/920e9f40fe9aeb514ec6a89076f1fd5b10e5e45481b8867156b1aca79b61ec15.json,.angular/cache/19.2.10/babel-webpack/1369756610ef7dccd933eeaa76a516e5a26908e7a02c17a726035a6abfb71461.json,.angular/cache/19.2.10/babel-webpack/caf7d5d8547a948483a64cd55690d7592a170c0baa4ff6a23b0c8185edc45878.json,.angular/cache/19.2.10/babel-webpack/554f410b3875eeb2c64286ac781d217b32373a3527d1ac07a5a839805e512b0e.json,.angular/cache/19.2.10/babel-webpack/4b2fe24a44c4d57da3240681d9548a6f297a36dcdc0a6b95ac832197b4b3b544.json,.angular/cache/19.2.10/babel-webpack/f52f094923be042f479ec1ac2720d3b5bd7d1a2dc7e6b285e01754656565c159.json,.angular/cache/19.2.10/babel-webpack/5608d248fb84e8f25b4806b798c296a0296384e23bf358491666f77a48c01996.json,.angular/cache/19.2.10/babel-webpack/9ef30db127a6723702c54e91198d41450d8a432dd9c05ee7cb122b35e8e8765e.json,.angular/cache/19.2.10/babel-webpack/0513e31b02e908cc25d31deca9d5e1c801b8e8e00f611f2ae3d9033798405526.json,.angular/cache/19.2.10/babel-webpack/56871f7d4873f5ea3f0ce1446a0914f197353556d8f9d4e131ea8993c502f8fe.json,.angular/cache/19.2.10/babel-webpack/6585d89854dd812414f50f93d06df57c972ad561e13299e58811d46762b19efd.json,.angular/cache/19.2.10/babel-webpack/f436e8905aaa8d21c5bec9e7ccdb79f826c0888895b90386d4836c66f5c3663b.json,.angular/cache/19.2.10/babel-webpack/74c7b64a4dbc5d66746f6aa9cdb8eac399a28aea4ccf2c1410c827a10fda72c9.json,.angular/cache/19.2.10/babel-webpack/fddf897c599732a2e70099b56da0dca429936db488a018b22fff5ba348be7166.json,.angular/cache/19.2.10/babel-webpack/9cf8da713d7c649bb99ade03575d202253e5169554e9e3941780784cdc19b039.json,.angular/cache/19.2.10/babel-webpack/002b9c3985e97823366afdde19b7fdb3cc4932568981bb7d904a71fa4cbfcdd7.json,.angular/cache/19.2.10/babel-webpack/ff8c3aa8b14152638689b06d50991d53c3603fe3fbf507ff04773de366c82a36.json,.angular/cache/19.2.10/babel-webpack/70c870e19c9ff16c8f45ed39dbfbb2b9b9ae9f6fd9a5d3d24955d7746ba72ce5.json,.angular/cache/19.2.10/babel-webpack/03016ffaff25558af82cf76e2f35ce540733d480c1d312ae2aeb06a811ce8739.json,.angular/cache/19.2.10/babel-webpack/2fe74080015bee56b008cf6c1c10a6a03a556d8b7eb67656e8f509e632191a49.json,.angular/cache/19.2.10/babel-webpack/7f29c9f2054986f3e5b3c2fb646f8e06e9d4978fdf3af8e132aaaec0acdf1475.json,.angular/cache/19.2.10/babel-webpack/9a651f30d6e57c40c0206fca449c54b14b716c0adf1dda4f6a00f3ea38936818.json,.angular/cache/19.2.10/babel-webpack/6b394cf994b48618422342194dc4e962feb675eaae6188920ac559eaadd49103.json,.angular/cache/19.2.10/babel-webpack/b7f39d3c078167fd2bf0882c7fff8e6988cee3f99a3f86c43d44e41a39076411.json,.angular/cache/19.2.10/babel-webpack/95e43f70e90ca68e8eaffa379996fbe29d549498c0d5ba28d042db9b4f776634.json,.angular/cache/19.2.10/babel-webpack/55bb79f625be3ad5dee06085133ea30d950c939b225dfb0296323b6780757c5c.json,.angular/cache/19.2.10/babel-webpack/71d1e9027380f8553428bb0991478e932f79965548bdeb9e32db6b9df5f2b14e.json,.angular/cache/19.2.10/babel-webpack/8a9c22ca3c6f01e70800d5c6f293fe539ab8b74425b8e80e4f645939eefd07c7.json,.angular/cache/19.2.10/babel-webpack/bcfd6c3d1d0a4b0131552492bebe444ceff7e9fca2bfe277a2d0a64d165dc402.json,.angular/cache/19.2.10/babel-webpack/e54b2adca3d0abf05c80e1f7d3b1e7bee92510386aa1b40eff912d11d79c675c.json,.angular/cache/19.2.10/babel-webpack/15c6990a1f97db38ca79bf8638ba9158efe9b255f6cc1d8660ff19a1780b698a.json,.angular/cache/19.2.10/babel-webpack/a03bc7919901d1e9cb2eee1a63e19808b8c19233652615b0ad28335a8fa5d268.json,.angular/cache/19.2.10/babel-webpack/54fc81cef0e91ca7e0e21ad4d6cefb5aa980483a78ca547d8e7a777f2a391683.json,.angular/cache/19.2.10/babel-webpack/833a8f17c2f6ae6f6d430ffd757dc34c00c4f50dc4a311fb3c72972a143f0196.json,.angular/cache/19.2.10/babel-webpack/cc0696a4933a8d9f3d942966252d15e45e06012bef80e3a5987bde63e8b5aed3.json,.angular/cache/19.2.10/babel-webpack/de18254de0a361fda045e8bcce05abe9137cb40e499b480e29d63215da593222.json,.angular/cache/19.2.10/babel-webpack/6b80e57f9e2e06089e682965bde8f95f7bea6cb75f6c42016ff1c38c0cc6eeb0.json,.angular/cache/19.2.10/babel-webpack/8de40762638b832f44a02d3090f2328233e1ecc82f7390dd486894fc0e5afc83.json,.angular/cache/19.2.10/babel-webpack/d07f5d2107041b3770d5fefee68856fe064b9681cd754e4c423b9f7a8b6df51e.json,.angular/cache/19.2.10/babel-webpack/a17711eae4ccb53dab7a54120fedf44866064b412f85d8df4ec9214b10392e25.json,.angular/cache/19.2.10/babel-webpack/fafc125183c782c5ce24147e5787fb5bc7e78aecf3a33820b34250fd9482bc7b.json,.angular/cache/19.2.10/babel-webpack/212ad0bd945c151c38e9eaef0381f39697ada57691842b9d587d6ad25321a63f.json,.angular/cache/19.2.10/babel-webpack/c0f739dc00f5a1a88bbdbf6f1878775d25e065357dc36b20aeaf5ad95378a003.json,.angular/cache/19.2.10/babel-webpack/e50a84b74a7301a88f97c33fcd049a080d310622094008cc4d6b8d17ce56c191.json,.angular/cache/19.2.10/babel-webpack/7c53aac1a009a6b39a04d98c1f10ec9cf9b6fb3bbc16b1457fcc8f4539e65652.json,.angular/cache/19.2.10/babel-webpack/198441ca98065608fe6a93ff40e0be65cf412553b570a9a274f6cd85aa088e56.json,.angular/cache/19.2.10/babel-webpack/acbb4a928072ab2e38c8130515f69ceaa608ef4aca0f830dadcb05342bca1395.json,.angular/cache/19.2.10/babel-webpack/bf1e0d9814cbe86f50f440d25cca7900385581b084965c7a473f90723147147f.json,.angular/cache/19.2.10/babel-webpack/a0ee7b9110428a8239573c9a21c5d04f363b1cc84dcda919857169d9e40e4c2a.json,.angular/cache/19.2.10/babel-webpack/ee56526019e838b7d7ee7250d5acd88d8007ecc61db08a68aaaa8d6f4b8d4c96.json,.angular/cache/19.2.10/babel-webpack/9eb216e8de25bc4499fb5f65d384f19b9a8012828f67c9efa5d3bbcfe6ff7720.json,.angular/cache/19.2.10/babel-webpack/c3021d86897d598292dc3fc6fe0dc614c83f53250b2bb774eeacc8e2797cf17b.json,.angular/cache/19.2.10/babel-webpack/a70c77bd844ce5b7d58e662f7d99ff085a8e61f36c2c9c0b1b37fbc55f0024e3.json,.angular/cache/19.2.10/babel-webpack/477a7446efb0dc42c6b4488f586d97323f0b4bd7a851202d48f3e5e8f6c90c44.json,.angular/cache/19.2.10/babel-webpack/f460beebba4bdf2082834feb227476aeb0c23831a4c88d1b0983a0662209e31a.json,.angular/cache/19.2.10/babel-webpack/47677d339b24c69a02f59e5c8ce37c0da9c5ae72fe12f1d0e41a7569c9dceb0f.json,.angular/cache/19.2.10/babel-webpack/9a19b8ffdf6a486193827d4cd90d3d56f9e8e9a6fc37738cfa409e53a2dbd284.json,.angular/cache/19.2.10/babel-webpack/1af69954eac1dfeb386b6bdc9f7f5cdea0720338553c9364605caef7a43692a6.json,.angular/cache/19.2.10/babel-webpack/2c1e4cee323308cae2210041870a613fedd6a3829d29c8ce0b1256e52b6bb611.json,.angular/cache/19.2.10/babel-webpack/de7d6308140f0d24826a8df4c721565f2ca19449bf02335f01e3d97079052852.json,.angular/cache/19.2.10/babel-webpack/070606d9cc93f8ef72be7c6712f07d0a8b16ab3253596dca546dcbd12c943b63.json,.angular/cache/19.2.10/babel-webpack/92fd8ba556e17cf97477c1d2775e60b460fc05a9d8433995dea6bcd64c7ba3a9.json,.angular/cache/19.2.10/babel-webpack/e939d83c886351dfa9791dadc4a7f774dac723912532b3ca01f2553e46ed1f50.json,.angular/cache/19.2.10/babel-webpack/348bc67fb39b3b18ccad3360af732017309b034a9dcda24d2126c3753a39f048.json,.angular/cache/19.2.10/babel-webpack/42ecef80a848ab3c85766c7c4a96d3b9a425fb830f8024f0dab76e2c9b416a59.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.392Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.396Z - [WATCHER]: 26 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.396Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.397Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.397Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.397Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.397Z - Time taken for 'hash changed files from watcher' 2.6182090044021606ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.398Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.398Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.398Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.400Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.400Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.400Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.428Z - Time taken for 'build-project-configs' 27.334540992975235ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.451Z - [WATCHER]: 24 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.451Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.468Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.468Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.468Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.468Z - Time taken for 'total execution time for createProjectGraph()' 33.41858300566673ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.498Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.498Z - [REQUEST]: .angular/cache/19.2.10/babel-webpack/7b6b117de8a5b8319169d0e144a10ff2f4b855d505243c0a37f56cf6a72510aa.json,.angular/cache/19.2.10/babel-webpack/45396c6f0e8cf30fb9633326a87d654af2f2ef11bca19ada88e4f907c9b7119a.json,.angular/cache/19.2.10/babel-webpack/ef99cb2693ac677bc761559998332d2e151ab0ecf160752a99f971064bfe3e87.json,.angular/cache/19.2.10/babel-webpack/7c5a399cc8bafa5238be89206496941e5318c8d2a89eafff49d9d210f2a89faa.json,.angular/cache/19.2.10/babel-webpack/c32e8be61407db327225650237cb9682ade2633ff37ec7c92609b9c5e89fa2d0.json,.angular/cache/19.2.10/babel-webpack/9ae578ebb9b66cfe76036b1ef5b1f2eea40d0ce39193aa5904c181bfcf5d222a.json,.angular/cache/19.2.10/babel-webpack/8f2d11da18797629e6a56694206e6ab8cf4760852cdf61f6b721e0ec9271ec2f.json,.angular/cache/19.2.10/babel-webpack/865cbabb066b44898d12c7b84597d0e5b6fc508e9206150524f7f9a7715096c2.json,.angular/cache/19.2.10/babel-webpack/7c00af08e2cf8035c8a1f64d0d169d6e1e66fbea407cbade1c1643de04284218.json,.angular/cache/19.2.10/babel-webpack/829a62b0eb88131783286101b6247881acd9708f1149cd49a686d8391a10d723.json,.angular/cache/19.2.10/babel-webpack/e9c269298150fd98c30699170716843bca383a38d949ca8086d4e25d4be8f299.json,.angular/cache/19.2.10/babel-webpack/600916a53d62c0634b2c2724a88206e38ce315c432092bfeb1a461567dcb5a46.json,.angular/cache/19.2.10/babel-webpack/33ca717e963a2f8a7c73e67533d8a1c4997481fe4b600885a23bbc512e057335.json,.angular/cache/19.2.10/babel-webpack/0d71d0d37de8a59e26f8936554a1a1e2c805390e564c96c400c2455fd5b3db2e.json,.angular/cache/19.2.10/babel-webpack/c2964187df152d88f653603b11f1ef61ac20dc510459427131c8d3cd8e4f7292.json,.angular/cache/19.2.10/babel-webpack/d1b7d012594f92027ca1230cb7254e4ac94308a642054e7a658ab508dbfe9049.json,.angular/cache/19.2.10/babel-webpack/c8ae0b32624fe8c03b36c0b9895384de93ad104882c5f5a3a66ceeef796ecae7.json,.angular/cache/19.2.10/babel-webpack/9245e4605e83a7075ca9c49c639009f5ea6660c99fa16775cca960642d5bc43f.json,.angular/cache/19.2.10/babel-webpack/cfdfb58b4b13451a9304af14f50edcde105ccf777610073fb124f37df5d189b2.json,.angular/cache/19.2.10/babel-webpack/d86084f9c678545b58ecfcac8294da1e4ed18bf1de758caa3e4d7fa89d391140.json,.angular/cache/19.2.10/babel-webpack/4e7c4c458fa483c7779dea5a65b8d5d824672424d2b8e31b0841fc8b60e2d6fa.json,.angular/cache/19.2.10/babel-webpack/2d79502f3c972799c8d32ff8f4d01f54ae57843498bf6691fd137c2c16d1936b.json,.angular/cache/19.2.10/babel-webpack/0d4e8a9c7c35fd2a3956068d39d38d0946a8c29658e48b79868a0c0764e95b3e.json,.angular/cache/19.2.10/babel-webpack/506dfadc09323160a59ff0d9127cb64399af16256166cb0ed4537e219f05f107.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.498Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.503Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.503Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.503Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.503Z - Time taken for 'hash changed files from watcher' 2.272125005722046ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.505Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.505Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.505Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.507Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.507Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.507Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.535Z - Time taken for 'build-project-configs' 28.78320801258087ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.565Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.565Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.565Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:32:58.565Z - Time taken for 'total execution time for createProjectGraph()' 22.21712499856949ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:01.270Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.120Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.120Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.150Z - Closed a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.158Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.158Z - Done responding to the client recordOutputsHash
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.158Z - Handled RECORD_OUTPUTS_HASH. Handling time: 2. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.190Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.275Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.276Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.276Z - Handled PROCESS_IN_BACKGROUND. Handling time: 76. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.286Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.286Z - [REQUEST]: .angular/cache/19.2.10/angular-webpack/2afaaa301fb312fee81144c9c72a4cd51e7b7eca/0.pack,.angular/cache/19.2.10/angular-webpack/2afaaa301fb312fee81144c9c72a4cd51e7b7eca/index.pack
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.286Z - [REQUEST]: .angular/cache/19.2.10/angular-webpack/2afaaa301fb312fee81144c9c72a4cd51e7b7eca/0.pack_,.angular/cache/19.2.10/angular-webpack/2afaaa301fb312fee81144c9c72a4cd51e7b7eca/index.pack_
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.289Z - Uploading file artifacts
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.293Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.293Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.293Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.294Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.294Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.294Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.294Z - Time taken for 'hash changed files from watcher' 10.133375018835068ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.296Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.296Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.296Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.321Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.322Z - Done responding to the client handleRunPostTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.322Z - Handled POST_TASKS_EXECUTION. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.322Z - Time taken for 'postTasksExecution' 0.11820802092552185ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.333Z - Time taken for 'build-project-configs' 39.268541008234024ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.334Z - Closed a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.367Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.367Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.367Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.367Z - Time taken for 'total execution time for createProjectGraph()' 27.57445800304413ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.979Z - Done uploading file artifacts
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:02.979Z - Sending EndRun request
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:03.150Z - Done sending EndRun request
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.577Z - Established a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.578Z - Closed a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.578Z - Established a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.579Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.579Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.581Z - Time taken for 'total for creating and serializing project graph' 0.22591698169708252ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.583Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.583Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.588Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.588Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.588Z - Handled PRE_TASKS_EXECUTION. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.588Z - Time taken for 'preTasksExecution' 0.14649999141693115ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.633Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.634Z - Done responding to the client handleHashTasks
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.634Z - Handled HASH_TASKS. Handling time: 17. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.770Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.770Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:57.770Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:58.193Z - Established a connection. Number of open connections: 4
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:58.193Z - Closed a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:58.193Z - Established a connection. Number of open connections: 4
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:58.194Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:58.194Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:58.197Z - Time taken for 'total for creating and serializing project graph' 0.12250000238418579ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:58.203Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:58.203Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 9.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:33:58.963Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.222Z - Closed a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.229Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.229Z - Done responding to the client recordOutputsHash
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.229Z - Handled RECORD_OUTPUTS_HASH. Handling time: 3. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.232Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.288Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.288Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.288Z - Handled PROCESS_IN_BACKGROUND. Handling time: 20. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.288Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.289Z - Uploading file artifacts
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.296Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.296Z - Done responding to the client handleRunPostTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.296Z - Handled POST_TASKS_EXECUTION. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.296Z - Time taken for 'postTasksExecution' 0.11283299326896667ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.299Z - Closed a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.880Z - Done uploading file artifacts
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:00.880Z - Sending EndRun request
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:01.058Z - Done sending EndRun request
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:31.515Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.304Z - Established a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.304Z - Closed a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.305Z - Established a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.306Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.306Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.308Z - Time taken for 'total for creating and serializing project graph' 0.17537498474121094ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.310Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.310Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.315Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.315Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.315Z - Handled PRE_TASKS_EXECUTION. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.315Z - Time taken for 'preTasksExecution' 0.08754098415374756ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.353Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.354Z - Done responding to the client handleHashTasks
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.354Z - Handled HASH_TASKS. Handling time: 10. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.482Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.483Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.483Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.488Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.488Z - Done responding to the client outputsHashesMatch
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.488Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.505Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.505Z - Done responding to the client recordOutputsHash
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.505Z - Handled RECORD_OUTPUTS_HASH. Handling time: 2. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.560Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.560Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.560Z - Handled PROCESS_IN_BACKGROUND. Handling time: 20. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.560Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.561Z - Uploading file artifacts
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.561Z - Done uploading file artifacts
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.561Z - Sending EndRun request
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.569Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.569Z - Done responding to the client handleRunPostTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.569Z - Handled POST_TASKS_EXECUTION. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.569Z - Time taken for 'postTasksExecution' 0.1145000159740448ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.572Z - Closed a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:38.732Z - Done sending EndRun request
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:34:56.152Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.014Z - Established a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.014Z - Closed a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.015Z - Established a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.015Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.016Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.017Z - Time taken for 'total for creating and serializing project graph' 0.1458750069141388ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.019Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.020Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 4.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.025Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.025Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.025Z - Handled PRE_TASKS_EXECUTION. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.025Z - Time taken for 'preTasksExecution' 0.0799579918384552ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.061Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.062Z - Done responding to the client handleHashTasks
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.062Z - Handled HASH_TASKS. Handling time: 9. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.189Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.189Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.189Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.825Z - [WATCHER]: tmp/ui-components/build/tsconfig.generated.1f9efd2d-3d04-4f2e-b081-c11857cf1853.json was created or restored
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.825Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.927Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.927Z - [REQUEST]: tmp/ui-components/build/tsconfig.generated.1f9efd2d-3d04-4f2e-b081-c11857cf1853.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.927Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.931Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.932Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.932Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.932Z - Time taken for 'hash changed files from watcher' 1.8234580159187317ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.933Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.933Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.933Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.935Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.935Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.935Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:07.971Z - Time taken for 'build-project-configs' 34.27554199099541ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.012Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.012Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.012Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.012Z - Time taken for 'total execution time for createProjectGraph()' 33.51708298921585ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.542Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.712Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.712Z - Done responding to the client recordOutputsHash
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.712Z - Handled RECORD_OUTPUTS_HASH. Handling time: 2. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.743Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.770Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.770Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.770Z - Handled PROCESS_IN_BACKGROUND. Handling time: 20. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.771Z - [WATCHER]: tmp/ui-components/build/tsconfig.generated.1f9efd2d-3d04-4f2e-b081-c11857cf1853.json was deleted
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.771Z - Uploading file artifacts
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.776Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.776Z - Done responding to the client handleRunPostTasksExecution
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.776Z - Handled POST_TASKS_EXECUTION. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.776Z - Time taken for 'postTasksExecution' 0.10745799541473389ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.779Z - Closed a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.973Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.973Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.973Z - [REQUEST]: tmp/ui-components/build/tsconfig.generated.1f9efd2d-3d04-4f2e-b081-c11857cf1853.json
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.979Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.979Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.979Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.979Z - Time taken for 'hash changed files from watcher' 1.7550840079784393ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.980Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.980Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.980Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.982Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.982Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.982Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.994Z - Time taken for 'build-project-configs' 12.391665995121002ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.996Z - Done uploading file artifacts
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:08.996Z - Sending EndRun request
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:09.024Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:09.024Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:09.024Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:09.024Z - Time taken for 'total execution time for createProjectGraph()' 22.981875002384186ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T11:35:09.173Z - Done sending EndRun request
