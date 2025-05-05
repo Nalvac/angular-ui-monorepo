@@ -2986,3 +2986,5 @@ Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
 [NX v20.8.1 Daemon Server] - 2025-05-05T12:36:33.311Z - [SYNC]: project graph hash is the same, not collecting task sync generators
 [NX v20.8.1 Daemon Server] - 2025-05-05T12:36:33.311Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
 [NX v20.8.1 Daemon Server] - 2025-05-05T12:36:33.311Z - Time taken for 'total execution time for createProjectGraph()' 30.51408299803734ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:40:57.678Z - [WATCHER]: .github/workflows/release.yml was modified
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:40:57.678Z - [WATCHER]: Processing file changes in outputs
