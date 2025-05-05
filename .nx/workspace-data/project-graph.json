@@ -19268,6 +19268,11 @@
       },
       {
         "source": "ui-components",
+        "target": "npm:@storybook/test",
+        "type": "static"
+      },
+      {
+        "source": "ui-components",
         "target": "npm:jest-preset-angular",
         "type": "static"
       }
@@ -46360,5 +46365,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1746453537303
+  "computedAt": 1746458143749
 }
