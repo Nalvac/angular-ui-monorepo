@@ -34,7 +34,6 @@ jobs:
         run: |
           git checkout --orphan release
           cp -r dist/ui-components/* .
-          cp projects/ui-components/package.json .
           sed -i 's/"private": true/"private": false/' package.json
 
       - name: Commit and push to release branch
