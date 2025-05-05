@@ -1076,6 +1076,10 @@
       "ui-components/package.json",
       "nx/core/package-json"
     ],
+    "metadata.js.packageMain": [
+      "ui-components/package.json",
+      "nx/core/package-json"
+    ],
     "metadata.js.isInPackageManagerWorkspaces": [
       "ui-components/package.json",
       "nx/core/package-json"

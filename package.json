@@ -22,6 +22,7 @@
     "rxjs": "~7.8.0",
     "zone.js": "~0.15.0"
   },
+  "files": ["dist/libs/ui-components"],
   "devDependencies": {
     "@angular-devkit/build-angular": "~19.2.0",
     "@angular-devkit/core": "~19.2.0",

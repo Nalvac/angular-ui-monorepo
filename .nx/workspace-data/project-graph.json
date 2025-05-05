@@ -137,6 +137,7 @@
           "targetGroups": {},
           "js": {
             "packageName": "@nalvac/ui-components",
+            "packageMain": "ui-components/index.js",
             "isInPackageManagerWorkspaces": false
           }
         },
@@ -19467,12 +19468,22 @@
       },
       {
         "source": "angular-ui-monorepo",
+        "target": "npm:ng-packagr",
+        "type": "static"
+      },
+      {
+        "source": "angular-ui-monorepo",
         "target": "npm:nx",
         "type": "static"
       },
       {
         "source": "angular-ui-monorepo",
         "target": "npm:postcss",
+        "type": "static"
+      },
+      {
+        "source": "angular-ui-monorepo",
+        "target": "npm:postcss-url",
         "type": "static"
       },
       {
@@ -19508,6 +19519,11 @@
       {
         "source": "angular-ui-monorepo",
         "target": "npm:typescript-eslint",
+        "type": "static"
+      },
+      {
+        "source": "angular-ui-monorepo",
+        "target": "npm:verdaccio",
         "type": "static"
       },
       {
@@ -46285,5 +46301,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1746433852311
+  "computedAt": 1746435874487
 }
