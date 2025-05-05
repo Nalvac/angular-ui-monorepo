@@ -2988,3 +2988,61 @@ Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
 [NX v20.8.1 Daemon Server] - 2025-05-05T12:36:33.311Z - Time taken for 'total execution time for createProjectGraph()' 30.51408299803734ms
 [NX v20.8.1 Daemon Server] - 2025-05-05T12:40:57.678Z - [WATCHER]: .github/workflows/release.yml was modified
 [NX v20.8.1 Daemon Server] - 2025-05-05T12:40:57.678Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.089Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.089Z - [REQUEST]: .github/workflows/release.yml
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.089Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.099Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.099Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.099Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.099Z - Time taken for 'hash changed files from watcher' 6.411500006914139ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.101Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.102Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.102Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.106Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.106Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.106Z - Handled HASH_GLOB. Handling time: 3. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.157Z - Time taken for 'build-project-configs' 56.013458997011185ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.194Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.194Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.194Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:41:04.194Z - Time taken for 'total execution time for createProjectGraph()' 31.454625010490417ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:43:59.604Z - [WATCHER]: .github/workflows/release.yml was modified
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:43:59.604Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.014Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.014Z - [REQUEST]: .github/workflows/release.yml
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.014Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.021Z - Time taken for 'hash changed files from watcher' 6.560209006071091ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.023Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.023Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.023Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.026Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.026Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.026Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.030Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.030Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.030Z - Handled HASH_GLOB. Handling time: 3. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.074Z - Time taken for 'build-project-configs' 47.72245901823044ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.110Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.110Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.110Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:06.110Z - Time taken for 'total execution time for createProjectGraph()' 28.80324998497963ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:08.163Z - [WATCHER]: .github/workflows/release.yml was modified
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:08.163Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.570Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.571Z - [REQUEST]: .github/workflows/release.yml
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.571Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.579Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.580Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.580Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.580Z - Time taken for 'hash changed files from watcher' 5.969749987125397ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.582Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.582Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.582Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.585Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.585Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.585Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.626Z - Time taken for 'build-project-configs' 43.37020900845528ms
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.661Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.661Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.661Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-05T12:44:14.661Z - Time taken for 'total execution time for createProjectGraph()' 29.706124991178513ms
