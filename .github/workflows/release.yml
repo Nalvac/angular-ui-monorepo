@@ -32,7 +32,8 @@ jobs:
 
       - name: Prepare release branch
         run: |
-          git checkout --orphan release
+          git checkout release
+          git clean -fdx
           cp -r dist/ui-components .
 
       - name: Commit and push
