@@ -60,7 +60,7 @@ jobs:
           # Ici, ui-components est le nom de ta lib ; adapte si besoin
           cp -r dist/ui-components/* ./
           # On peut enlever le dossier dist/ si tu ne le veux pas :
-          rm -rf dist
+          rm -rf dist node_modules .nx .github
 
       - name: Commit and push
         env:
