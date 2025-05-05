@@ -137,6 +137,15 @@
           "targetGroups": {},
           "js": {
             "packageName": "@nalvac/ui-components",
+            "packageExports": {
+              "./package.json": {
+                "default": "./package.json"
+              },
+              ".": {
+                "types": "./index.d.ts",
+                "default": "./fesm2022/nalvac-ui-components.mjs"
+              }
+            },
             "packageMain": "dist/libs/ui-components/index.js",
             "isInPackageManagerWorkspaces": false
           }
@@ -400,6 +409,18 @@
               "{workspaceRoot}/eslint.config.mjs"
             ]
           },
+          "start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start"
+            },
+            "metadata": {
+              "scriptContent": "nx serve",
+              "runCommand": "npm run start"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
           "build": {
             "executor": "@angular-devkit/build-angular:browser",
             "outputs": [
@@ -656,18 +677,22 @@
           }
         },
         "name": "angular-ui-monorepo",
-        "includedScripts": [],
         "tags": [
           "npm:private"
         ],
         "metadata": {
-          "targetGroups": {},
+          "targetGroups": {
+            "NPM Scripts": [
+              "start"
+            ]
+          },
           "js": {
             "packageName": "@angular-ui-monorepo/source",
             "isInPackageManagerWorkspaces": true
           }
         },
         "$schema": "node_modules/nx/schemas/project-schema.json",
+        "includedScripts": [],
         "projectType": "application",
         "prefix": "app",
         "sourceRoot": "./src",
@@ -19224,6 +19249,11 @@
       {
         "source": "ui-components",
         "target": "npm:@angular/core",
+        "type": "static"
+      },
+      {
+        "source": "ui-components",
+        "target": "npm:tslib",
         "type": "static"
       },
       {
@@ -46330,5 +46360,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1746449054652
+  "computedAt": 1746451537013
 }

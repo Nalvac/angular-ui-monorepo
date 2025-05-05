@@ -22,7 +22,9 @@
     "rxjs": "~7.8.0",
     "zone.js": "~0.15.0"
   },
-  "files": ["dist/libs/ui-components"],
+  "files": [
+    "dist/libs/ui-components"
+  ],
   "devDependencies": {
     "@angular-devkit/build-angular": "~19.2.0",
     "@angular-devkit/core": "~19.2.0",
@@ -79,7 +81,5 @@
     "typescript-eslint": "^8.19.0",
     "verdaccio": "^6.0.5"
   },
-  "nx": {
-    "includedScripts": []
-  }
+  "nx": {}
 }

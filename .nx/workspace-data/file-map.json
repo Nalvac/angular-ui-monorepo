@@ -26,194 +26,6 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
-      "ui-components": [
-        {
-          "file": "ui-components/.storybook/main.ts",
-          "hash": "12085196776787375606",
-          "deps": [
-            "npm:@storybook/angular"
-          ]
-        },
-        {
-          "file": "ui-components/.storybook/preview.ts",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "ui-components/.storybook/tsconfig.json",
-          "hash": "3580233103277275370"
-        },
-        {
-          "file": "ui-components/README.md",
-          "hash": "9454200568591758621"
-        },
-        {
-          "file": "ui-components/eslint.config.mjs",
-          "hash": "15123908784763007189",
-          "deps": [
-            "npm:@nx/eslint-plugin",
-            [
-              "npm:jsonc-eslint-parser",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "ui-components/jest.config.ts",
-          "hash": "13217512676914395311"
-        },
-        {
-          "file": "ui-components/ng-package.json",
-          "hash": "6663681397182362451"
-        },
-        {
-          "file": "ui-components/package.json",
-          "hash": "7727212054131562255",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "ui-components/project.json",
-          "hash": "17891780758901638117"
-        },
-        {
-          "file": "ui-components/src/index.ts",
-          "hash": "3828150405752400355"
-        },
-        {
-          "file": "ui-components/src/lib/button/button.html",
-          "hash": "687994335039668939"
-        },
-        {
-          "file": "ui-components/src/lib/button/button.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "ui-components/src/lib/button/button.spec.ts",
-          "hash": "7437450012013111987",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "ui-components/src/lib/button/button.stories.ts",
-          "hash": "8824422448457477744",
-          "deps": [
-            "npm:@storybook/angular",
-            "npm:@storybook/testing-library",
-            "npm:@storybook/jest"
-          ]
-        },
-        {
-          "file": "ui-components/src/lib/button/button.ts",
-          "hash": "1225241819968552587",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "ui-components/src/lib/ui-components/ui-components.component.html",
-          "hash": "11323938404221225235"
-        },
-        {
-          "file": "ui-components/src/lib/ui-components/ui-components.component.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "ui-components/src/lib/ui-components/ui-components.component.spec.ts",
-          "hash": "7411932594738976253",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "ui-components/src/lib/ui-components/ui-components.component.stories.ts",
-          "hash": "14835907104143905194",
-          "deps": [
-            "npm:@storybook/angular",
-            "npm:@storybook/testing-library",
-            "npm:@storybook/jest"
-          ]
-        },
-        {
-          "file": "ui-components/src/lib/ui-components/ui-components.component.ts",
-          "hash": "14945820510337112762",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "ui-components/src/test-setup.ts",
-          "hash": "1917999429567095215",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "ui-components/tsconfig.json",
-          "hash": "6283936176451738244"
-        },
-        {
-          "file": "ui-components/tsconfig.lib.json",
-          "hash": "6509540169499553819"
-        },
-        {
-          "file": "ui-components/tsconfig.lib.prod.json",
-          "hash": "174503844014784742"
-        },
-        {
-          "file": "ui-components/tsconfig.spec.json",
-          "hash": "2129196202529263968"
-        }
-      ],
-      "e2e": [
-        {
-          "file": "e2e/cypress.config.ts",
-          "hash": "12908080223157133743",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "e2e/eslint.config.mjs",
-          "hash": "544839459370203154",
-          "deps": [
-            "npm:eslint-plugin-cypress"
-          ]
-        },
-        {
-          "file": "e2e/project.json",
-          "hash": "3642426305765354872"
-        },
-        {
-          "file": "e2e/src/e2e/app.cy.ts",
-          "hash": "2588220647650846806"
-        },
-        {
-          "file": "e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "e2e/src/support/commands.ts",
-          "hash": "6408592624158157338"
-        },
-        {
-          "file": "e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "e2e/tsconfig.json",
-          "hash": "4113462041669113066"
-        }
-      ],
       "angular-ui-monorepo": [
         {
           "file": ".angular/cache/19.2.10/angular-webpack/2afaaa301fb312fee81144c9c72a4cd51e7b7eca/0.pack",
@@ -564,6 +376,10 @@
           "hash": "13704765885301518433"
         },
         {
+          "file": ".angular/cache/19.2.10/babel-webpack/0ea49aae45e077ccd8c78a93b64cef43065d40ce9da9e063c01c14ed2a98b2ed.json",
+          "hash": "14803784651870646487"
+        },
+        {
           "file": ".angular/cache/19.2.10/babel-webpack/0eb467e7f73046df4c5ba07789a4c1d16033638c845e8e9a3713e5c4d5269681.json",
           "hash": "12950109496051135464"
         },
@@ -809,11 +625,15 @@
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/198d0393aa6c47ceba5bdf6c9875c434064203134e7ed6198448212d402fa344.json",
-          "hash": "3244421341483603138"
+          "hash": "12626130144379791451"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/19acf0e4497ee68ea5bd7d0a57b6bf9ab1181c4ae1eafa902cd1b88e5beabf0e.json",
           "hash": "17802125897333353201"
+        },
+        {
+          "file": ".angular/cache/19.2.10/babel-webpack/19dc45322a83aa7be36cb69226817aea1d5c3ab2f2ff06e01b59d5ca6492bdb8.json",
+          "hash": "11554721337681439125"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/19e27e1624f54a64fc649dbcb3dfe54babcdaead0c99dad3d7897fe8221647be.json",
@@ -850,6 +670,10 @@
         {
           "file": ".angular/cache/19.2.10/babel-webpack/1b279bd8be987e69f6fd1195ed239f489e883a5c40b7f20a000b0b9c6a0a00eb.json",
           "hash": "8297761267758638113"
+        },
+        {
+          "file": ".angular/cache/19.2.10/babel-webpack/1bc3c4c758661e81ef1a4b258277634c0db5c804e1b04a791334ce5a3f1f1ad2.json",
+          "hash": "15215029913115485063"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/1bd2bbaafb2e0a57688d4f75c119eafa7799b39d639acfe71dce247770cabe1e.json",
@@ -1261,7 +1085,7 @@
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/2c58cadf61bb46ed05d51ee060d855658264e59f7f9ffd420c1c0e84ac9a2c9a.json",
-          "hash": "3244421341483603138"
+          "hash": "3073681100190599241"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/2c62950858d3c43996fe0fdbe4d2552a7041d2686de94a0034f7a13bd61253b9.json",
@@ -1730,6 +1554,10 @@
         {
           "file": ".angular/cache/19.2.10/babel-webpack/3e0ee36834b78c1f0e90287bb91763ab766cbdf08a71b3113d0921cafa62914a.json",
           "hash": "1765115206555984934"
+        },
+        {
+          "file": ".angular/cache/19.2.10/babel-webpack/3e16dcdb626b01809f2bce4cd96c4d927f09ffab2a4fc9d88e2b5df3a507d198.json",
+          "hash": "2751316448920463251"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/3e2af89288110f54790d0c7cf3162d94444f672b4de557d6c1b123013c7f1d26.json",
@@ -2216,6 +2044,10 @@
           "hash": "16434328744346229198"
         },
         {
+          "file": ".angular/cache/19.2.10/babel-webpack/51cf1c65130a101b8758cfea2e2f0afa6774d32e56a8fae77140b2e838987a39.json",
+          "hash": "5169384220623906711"
+        },
+        {
           "file": ".angular/cache/19.2.10/babel-webpack/51d65b7fd52b04028ceb43cb62e75712e8d08f3f97df8a76ea060f253962f560.json",
           "hash": "74928250475609613"
         },
@@ -2318,6 +2150,10 @@
         {
           "file": ".angular/cache/19.2.10/babel-webpack/554f410b3875eeb2c64286ac781d217b32373a3527d1ac07a5a839805e512b0e.json",
           "hash": "6128542306867002780"
+        },
+        {
+          "file": ".angular/cache/19.2.10/babel-webpack/5550fc1d6c9660802c7354c70ada19c5c222a4edf6bc4df133178449d1562f9f.json",
+          "hash": "17993771623492509801"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/5596470a12fbe053cb5f255f77bc819cd61a5e4de74c7865ffa52a517918dc3a.json",
@@ -2564,6 +2400,10 @@
           "hash": "1966198685340810542"
         },
         {
+          "file": ".angular/cache/19.2.10/babel-webpack/60e4b86a79a0d96c1563087ee1006296434cc7ba765501e5609b16833735068f.json",
+          "hash": "18366713799930779853"
+        },
+        {
           "file": ".angular/cache/19.2.10/babel-webpack/610c5501e5d02b7a39985125d4f71edd1dc68de001893227e5170559839fab90.json",
           "hash": "1514219168225908063"
         },
@@ -2728,6 +2568,10 @@
           "hash": "15878548647979930528"
         },
         {
+          "file": ".angular/cache/19.2.10/babel-webpack/66c08558e85d85da230f7f6b429c00d680cf0c3516069d04b4ef2b29cdc7ca2b.json",
+          "hash": "6673978164413500949"
+        },
+        {
           "file": ".angular/cache/19.2.10/babel-webpack/66ef1df2a39b72b97c298e568cc22385265496c307219598af6757625fbb4e68.json",
           "hash": "9803877314975388272"
         },
@@ -2870,6 +2714,10 @@
         {
           "file": ".angular/cache/19.2.10/babel-webpack/6ddd81edc40355beb3e202248833f1ceee0d166c83ed4154b074751b1c5c3609.json",
           "hash": "15423581447989022404"
+        },
+        {
+          "file": ".angular/cache/19.2.10/babel-webpack/6e53c0cc328037d47fa5e50d4f6e05d9109b779dd2144b3575a2bf68688f67a9.json",
+          "hash": "2396773622227565937"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/6eaf5ec7306e5f601d188f546bfbbaadbbb7843433975728e556aef44c9df94c.json",
@@ -3452,6 +3300,10 @@
           "hash": "5673405022323469564"
         },
         {
+          "file": ".angular/cache/19.2.10/babel-webpack/862beb3bc2c62e38b40ee1e3cb2b9a46ad4a86e4de91e1b9bc553c72321baea0.json",
+          "hash": "46766152719196030"
+        },
+        {
           "file": ".angular/cache/19.2.10/babel-webpack/8657f0cd5415c1df6a79acfdf1f3e386228da9be584318d6055f5ff3fbc0f376.json",
           "hash": "351440125544283562"
         },
@@ -3828,6 +3680,10 @@
           "hash": "4960890718106357300"
         },
         {
+          "file": ".angular/cache/19.2.10/babel-webpack/9491f56227cebe2055115c4e370c9454a984b23a2f39390cf9603bee8998ef61.json",
+          "hash": "12984950683462324273"
+        },
+        {
           "file": ".angular/cache/19.2.10/babel-webpack/94997e71c455966735b66b12f35cc582a2c1ffd0edcf890d3acfe393d3813879.json",
           "hash": "5006223978944996789"
         },
@@ -3894,6 +3750,10 @@
         {
           "file": ".angular/cache/19.2.10/babel-webpack/966bea78a6a814c9a674863f785ba723ad95431c204f9cf7f7cb65ba3815c5db.json",
           "hash": "7971283099243402072"
+        },
+        {
+          "file": ".angular/cache/19.2.10/babel-webpack/96a97e53fb63976f67bd56e16bfce5f18ce1652053b8b6668f20b2de16c967a4.json",
+          "hash": "14905865386435018487"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/96e1622e4406c603c3a210b857bc75352b8f70399a226f05addda8020d40d45d.json",
@@ -4276,12 +4136,20 @@
           "hash": "1848026508941882345"
         },
         {
+          "file": ".angular/cache/19.2.10/babel-webpack/a5812dfd83b73bbbf4006b0a848abb28ecab403c7629429a977fdde9e36b8591.json",
+          "hash": "8310124616825278636"
+        },
+        {
           "file": ".angular/cache/19.2.10/babel-webpack/a5926d8f496ddf7fd4228eabc0e1d238871d1b8309387acae116f4192404ea60.json",
           "hash": "16265995004260802109"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/a5be5c3c141b13f0a67d212bc2411961c9db7ec449de9f407e0d9ceb4ba0667e.json",
           "hash": "1914258328064403283"
+        },
+        {
+          "file": ".angular/cache/19.2.10/babel-webpack/a5ebe0f59ea3c273d9ffab1083aababf5ddbba2273d5f975248c41319dd111ec.json",
+          "hash": "16698161399774717365"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/a5f9c7437c87e413b3013fce714a7d0f27b7ca52e73fc01ab32821310dfec2fc.json",
@@ -4670,6 +4538,10 @@
         {
           "file": ".angular/cache/19.2.10/babel-webpack/b8f80db18fa7e4ff62e8ff27f9da1236f0af9af173b8ab78f7fde7c7c424ba0b.json",
           "hash": "8551595516454253292"
+        },
+        {
+          "file": ".angular/cache/19.2.10/babel-webpack/b9100f653fb57527e75a5dce83297d44c06ec059fb3c6b832790d97aeaf12bcb.json",
+          "hash": "11879420278745890770"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/b95bbf2901dc13445f1b2d48bcbd3f184b4155fbacf8a61dba08f1abaf5ea23d.json",
@@ -5141,7 +5013,7 @@
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/cb0778bfa966449eca8efc1f2d318ae1d71e1af6e9dc02f6a30e1d70cb2bee79.json",
-          "hash": "3244421341483603138"
+          "hash": "2555668654178373143"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/cb853df782e4c1ca01e3dc31b3d94a1087093b49fe642d8893cd523c85784d5f.json",
@@ -5294,6 +5166,10 @@
         {
           "file": ".angular/cache/19.2.10/babel-webpack/d23877db941935c2532e77b666d132547a4e5e92f9ccf622ce4950f4d8f67542.json",
           "hash": "18227873865666286610"
+        },
+        {
+          "file": ".angular/cache/19.2.10/babel-webpack/d29d2a437f181bf73883be5710b6fdee3b89c2c85b96832e418f8e7c499ac203.json",
+          "hash": "12710970770569518920"
         },
         {
           "file": ".angular/cache/19.2.10/babel-webpack/d2b6f36720af5f1c1aab7f8910fea8db7fb35b39a98b2af5d4fa5d200ce63905.json",
@@ -6580,6 +6456,10 @@
           "hash": "1133572611170493872"
         },
         {
+          "file": ".angular/cache/19.2.10/babel-webpack/fd5a12bba117463edad91a1fa4e55f0bcdef82d10b7c8ecb65206f0ba6f23fe8.json",
+          "hash": "6219209829724183696"
+        },
+        {
           "file": ".angular/cache/19.2.10/babel-webpack/fd5ec77d7065c428dc24f004a3ca2271662732d53f567632bff36123f91e6abe.json",
           "hash": "17504787485299713628"
         },
@@ -6657,51 +6537,11 @@
         },
         {
           "file": ".github/workflows/release.yml",
-          "hash": "16374716844955377815"
+          "hash": "4020446981397527369"
         },
         {
           "file": ".gitignore",
-          "hash": "3513492345290072647"
-        },
-        {
-          "file": ".idea/.gitignore",
-          "hash": "10286036308014790964"
-        },
-        {
-          "file": ".idea/angular-ui-monorepo.iml",
-          "hash": "7210100432694438571"
-        },
-        {
-          "file": ".idea/codeStyles/Project.xml",
-          "hash": "9091911304346431052"
-        },
-        {
-          "file": ".idea/codeStyles/codeStyleConfig.xml",
-          "hash": "4690022301721055948"
-        },
-        {
-          "file": ".idea/inspectionProfiles/Project_Default.xml",
-          "hash": "8912173605315939135"
-        },
-        {
-          "file": ".idea/misc.xml",
-          "hash": "15719454401924910843"
-        },
-        {
-          "file": ".idea/modules.xml",
-          "hash": "2979089831064660035"
-        },
-        {
-          "file": ".idea/nx-angular-config.xml",
-          "hash": "7575529779390250839"
-        },
-        {
-          "file": ".idea/prettier.xml",
-          "hash": "13711802271405639796"
-        },
-        {
-          "file": ".idea/vcs.xml",
-          "hash": "14600148892634157659"
+          "hash": "18372526896017369199"
         },
         {
           "file": ".npmignore",
@@ -6781,7 +6621,7 @@
         },
         {
           "file": "nx.json",
-          "hash": "4496277466702180568"
+          "hash": "10098590171199079477"
         },
         {
           "file": "package-lock.json",
@@ -6789,7 +6629,7 @@
         },
         {
           "file": "package.json",
-          "hash": "12698611750880944379",
+          "hash": "9920939376572303032",
           "deps": [
             "npm:@angular-devkit/build-angular",
             "npm:@angular-devkit/core",
@@ -7003,6 +6843,195 @@
         {
           "file": "tsconfig.spec.json",
           "hash": "16287279946930924495"
+        }
+      ],
+      "e2e": [
+        {
+          "file": "e2e/cypress.config.ts",
+          "hash": "12908080223157133743",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "e2e/eslint.config.mjs",
+          "hash": "544839459370203154",
+          "deps": [
+            "npm:eslint-plugin-cypress"
+          ]
+        },
+        {
+          "file": "e2e/project.json",
+          "hash": "3642426305765354872"
+        },
+        {
+          "file": "e2e/src/e2e/app.cy.ts",
+          "hash": "2588220647650846806"
+        },
+        {
+          "file": "e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "e2e/src/support/commands.ts",
+          "hash": "6408592624158157338"
+        },
+        {
+          "file": "e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "e2e/tsconfig.json",
+          "hash": "4113462041669113066"
+        }
+      ],
+      "ui-components": [
+        {
+          "file": "ui-components/.storybook/main.ts",
+          "hash": "12085196776787375606",
+          "deps": [
+            "npm:@storybook/angular"
+          ]
+        },
+        {
+          "file": "ui-components/.storybook/preview.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ui-components/.storybook/tsconfig.json",
+          "hash": "3580233103277275370"
+        },
+        {
+          "file": "ui-components/README.md",
+          "hash": "9454200568591758621"
+        },
+        {
+          "file": "ui-components/eslint.config.mjs",
+          "hash": "15123908784763007189",
+          "deps": [
+            "npm:@nx/eslint-plugin",
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "ui-components/jest.config.ts",
+          "hash": "13217512676914395311"
+        },
+        {
+          "file": "ui-components/ng-package.json",
+          "hash": "6663681397182362451"
+        },
+        {
+          "file": "ui-components/package.json",
+          "hash": "8997285314600581647",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "ui-components/project.json",
+          "hash": "17891780758901638117"
+        },
+        {
+          "file": "ui-components/src/index.ts",
+          "hash": "3828150405752400355"
+        },
+        {
+          "file": "ui-components/src/lib/button/button.html",
+          "hash": "687994335039668939"
+        },
+        {
+          "file": "ui-components/src/lib/button/button.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ui-components/src/lib/button/button.spec.ts",
+          "hash": "7437450012013111987",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "ui-components/src/lib/button/button.stories.ts",
+          "hash": "8824422448457477744",
+          "deps": [
+            "npm:@storybook/angular",
+            "npm:@storybook/testing-library",
+            "npm:@storybook/jest"
+          ]
+        },
+        {
+          "file": "ui-components/src/lib/button/button.ts",
+          "hash": "1225241819968552587",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "ui-components/src/lib/ui-components/ui-components.component.html",
+          "hash": "2830750589186087793"
+        },
+        {
+          "file": "ui-components/src/lib/ui-components/ui-components.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ui-components/src/lib/ui-components/ui-components.component.spec.ts",
+          "hash": "7411932594738976253",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "ui-components/src/lib/ui-components/ui-components.component.stories.ts",
+          "hash": "14835907104143905194",
+          "deps": [
+            "npm:@storybook/angular",
+            "npm:@storybook/testing-library",
+            "npm:@storybook/jest"
+          ]
+        },
+        {
+          "file": "ui-components/src/lib/ui-components/ui-components.component.ts",
+          "hash": "14945820510337112762",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "ui-components/src/test-setup.ts",
+          "hash": "1917999429567095215",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "ui-components/tsconfig.json",
+          "hash": "6283936176451738244"
+        },
+        {
+          "file": "ui-components/tsconfig.lib.json",
+          "hash": "6509540169499553819"
+        },
+        {
+          "file": "ui-components/tsconfig.lib.prod.json",
+          "hash": "174503844014784742"
+        },
+        {
+          "file": "ui-components/tsconfig.spec.json",
+          "hash": "2129196202529263968"
         }
       ]
     }
