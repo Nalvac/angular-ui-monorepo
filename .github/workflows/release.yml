@@ -19,6 +19,9 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
+      - name: Install dependencies
+        run: npm install -g nx && npm ci
+
       - name: Build library
         run: npx nx build ui-components
 
