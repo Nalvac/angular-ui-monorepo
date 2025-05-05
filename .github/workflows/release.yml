@@ -38,12 +38,6 @@ jobs:
           
           # Copie uniquement les fichiers nécessaires
           cp -r dist/ui-components/* .
-          cp projects/ui-components/package.json .
-          
-          # Adapte le package.json pour la publication
-          sed -i 's/"private": true/"private": false/' package.json
-          sed -i 's|"main": ".*"|"main": "index.js"|' package.json
-          sed -i 's|"types": ".*"|"types": "index.d.ts"|' package.json
 
       - name: Commit and push
         env:
