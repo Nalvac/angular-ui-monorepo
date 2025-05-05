@@ -42,4 +42,4 @@ jobs:
           git checkout --orphan release
           cp -r dist/ui-components/* .
           cd dist
-          
+          ls
