@@ -1,0 +1,32 @@
+# Fichiers/dossiers à ignorer
+node_modules/
+.idea/
+.nx/
+tmp/
+dist/
+coverage/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Dossiers de build et cache
+.cache/
+.angular/
+
+# Environnements
+.env
+.env.local
+.env.*.local
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
