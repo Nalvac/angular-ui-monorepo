@@ -33,7 +33,7 @@ jobs:
       - name: Prepare release branch
         run: |
           # Crée une nouvelle branche vierge
-          git checkout --orphan temp-release
+          git checkout --orphan release
           
           # Copie uniquement les fichiers nécessaires
           cp -r dist/ui-components .
