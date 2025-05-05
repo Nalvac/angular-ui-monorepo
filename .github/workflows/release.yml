@@ -39,4 +39,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ls
+          git add .
+          git commit -m "Release ${GITHUB_REF_NAME}"
+          
+          git branch -D release || true
+          git branch -m release
+          git push -f origin release
