@@ -42,10 +42,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Configure l'authentification
-          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          
-          # Commit et remplace la branche release
           git add .
           git commit -m "Release ${GITHUB_REF_NAME}"
           git branch -D release || true
