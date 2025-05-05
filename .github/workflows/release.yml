@@ -40,27 +40,20 @@ jobs:
 
       - name: Prepare release branch
         run: |
+          # Si la branche release existe déjà, on la supprime localement
           git branch -D release || true
+          # On crée la branche release à partir de HEAD
           git checkout --orphan release
+
+          # On supprime tout (sinon on garde les fichiers de l'app)
           git reset --hard
-
-          cat << 'EOF' > .gitignore
-          *
-          !dist/
-          !dist/ui-components/
-          !dist/ui-components/**
-
-          node_modules/
-          .nx/
-          .github/
-          EOF
 
       - name: Copy dist to root
         run: |
           # Ici, ui-components est le nom de ta lib ; adapte si besoin
           cp -r dist/ui-components/* ./
           # On peut enlever le dossier dist/ si tu ne le veux pas :
-          rm -rf dist node_modules .nx .github
+          rm -rf dist
 
       - name: Commit and push
         env:
