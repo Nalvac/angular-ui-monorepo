@@ -40,13 +40,20 @@ jobs:
 
       - name: Prepare release branch
         run: |
-          # Si la branche release existe déjà, on la supprime localement
           git branch -D release || true
-          # On crée la branche release à partir de HEAD
           git checkout --orphan release
-
-          # On supprime tout (sinon on garde les fichiers de l'app)
           git reset --hard
+
+          cat << 'EOF' > .gitignore
+          *
+          !dist/
+          !dist/ui-components/
+          !dist/ui-components/**
+
+          node_modules/
+          .nx/
+          .github/
+          EOF
 
       - name: Copy dist to root
         run: |
