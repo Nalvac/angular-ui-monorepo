@@ -34,10 +34,9 @@ jobs:
         run: |
           # Crée une nouvelle branche vierge
           git checkout --orphan temp-release
-          git reset --hard
           
           # Copie uniquement les fichiers nécessaires
-          cp -r dist/ui-components/* .
+          cp -r dist/ui-components .
 
       - name: Commit and push
         env:
