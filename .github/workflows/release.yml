@@ -1,27 +1,26 @@
 name: Release
 
-# 1️⃣ On autorise l’écriture dans le repo pour le GITHUB_TOKEN
+# 1️⃣ On autorise explicitement le push
 permissions:
   contents: write
 
 on:
   push:
     tags:
-      - 'v*'          # déclenchement sur tout tag vX.Y.Z
+      - 'v*'
 
 jobs:
   release:
     runs-on: ubuntu-latest
 
     steps:
-      # 2️⃣ On récupère tout le repo (historique complet)
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # 2️⃣ On s’assure de persister le GITHUB_TOKEN pour les pushes
           persist-credentials: true
 
-      # 3️⃣ Setup Node.js & deps
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
@@ -29,14 +28,17 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install -g nx && npm ci
 
-      # 4️⃣ Build ta librairie
-      - name: Build UI components
+      - name: Build library
         run: npx nx build ui-components --configuration=production
 
-      # 5️⃣ Préparer la branche release
-      - name: Create or reset release branch
+      - name: Configure Git
+        run: |
+          git config --global user.name "nalvac"
+          git config --global user.email "vacna197@gmail.com"
+
+      - name: Prepare release branch
         run: |
           # Si la branche release existe déjà, on la supprime localement
           git branch -D release || true
@@ -46,7 +48,6 @@ jobs:
           # On supprime tout (sinon on garde les fichiers de l'app)
           git reset --hard
 
-      # 6️⃣ Copier le contenu de dist dans la racine du nouveau commit
       - name: Copy dist to root
         run: |
           # Ici, ui-components est le nom de ta lib ; adapte si besoin
@@ -54,13 +55,11 @@ jobs:
           # On peut enlever le dossier dist/ si tu ne le veux pas :
           rm -rf dist
 
-      # 7️⃣ Commit & push sur release
-      - name: Commit & push release
+      - name: Commit and push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add -A
-          git commit -m "Release ${{ github.ref_name }}" --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
-          # On pousse en force la branche release
+          git commit -m "Release ${GITHUB_REF_NAME}"
+          # 3️⃣ On pousse en forçant la branche release
           git push -f origin release
-
