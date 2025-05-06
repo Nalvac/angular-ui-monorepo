@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nalvac/ui-component": ["ui/src/index.ts"],
       "@nalvac/ui-components": ["ui-components/src/index.ts"]
     }
   },

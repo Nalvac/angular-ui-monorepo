@@ -44,6 +44,7 @@ import {CommonModule} from "@angular/common";
     </div>
   `,
 
+  styleUrls: ['./task.component.scss'],
 
   imports: [
     CommonModule

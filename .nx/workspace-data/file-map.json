@@ -2,6 +2,9 @@
   "version": "6.0",
   "nxVersion": "20.8.1",
   "pathMappings": {
+    "@nalvac/ui-component": [
+      "ui/src/index.ts"
+    ],
     "@nalvac/ui-components": [
       "ui-components/src/index.ts"
     ]
@@ -26,166 +29,6 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
-      "ui-components": [
-        {
-          "file": "ui-components/.storybook/main.ts",
-          "hash": "12085196776787375606",
-          "deps": [
-            "npm:@storybook/angular"
-          ]
-        },
-        {
-          "file": "ui-components/.storybook/preview.ts",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "ui-components/.storybook/tsconfig.json",
-          "hash": "3580233103277275370"
-        },
-        {
-          "file": "ui-components/README.md",
-          "hash": "9454200568591758621"
-        },
-        {
-          "file": "ui-components/eslint.config.mjs",
-          "hash": "15123908784763007189",
-          "deps": [
-            "npm:@nx/eslint-plugin",
-            [
-              "npm:jsonc-eslint-parser",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "ui-components/jest.config.ts",
-          "hash": "13217512676914395311"
-        },
-        {
-          "file": "ui-components/ng-package.json",
-          "hash": "6663681397182362451"
-        },
-        {
-          "file": "ui-components/package.json",
-          "hash": "8997285314600581647",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core",
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "ui-components/project.json",
-          "hash": "17891780758901638117"
-        },
-        {
-          "file": "ui-components/src/index.ts",
-          "hash": "2348008092427512348"
-        },
-        {
-          "file": "ui-components/src/lib/button/button.html",
-          "hash": "687994335039668939"
-        },
-        {
-          "file": "ui-components/src/lib/button/button.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "ui-components/src/lib/button/button.spec.ts",
-          "hash": "7437450012013111987",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "ui-components/src/lib/button/button.stories.ts",
-          "hash": "8824422448457477744",
-          "deps": [
-            "npm:@storybook/angular",
-            "npm:@storybook/testing-library",
-            "npm:@storybook/jest"
-          ]
-        },
-        {
-          "file": "ui-components/src/lib/button/button.ts",
-          "hash": "1225241819968552587",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "ui-components/src/lib/tasks/task.commponent.ts",
-          "hash": "4945356724886966589",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "ui-components/src/lib/tasks/task.stories.ts",
-          "hash": "16356469327732631654",
-          "deps": [
-            "npm:@storybook/test",
-            "npm:@storybook/angular"
-          ]
-        },
-        {
-          "file": "ui-components/src/lib/ui-components/ui-components.component.html",
-          "hash": "2830750589186087793"
-        },
-        {
-          "file": "ui-components/src/lib/ui-components/ui-components.component.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "ui-components/src/lib/ui-components/ui-components.component.spec.ts",
-          "hash": "7411932594738976253",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "ui-components/src/lib/ui-components/ui-components.component.stories.ts",
-          "hash": "14835907104143905194",
-          "deps": [
-            "npm:@storybook/angular",
-            "npm:@storybook/testing-library",
-            "npm:@storybook/jest"
-          ]
-        },
-        {
-          "file": "ui-components/src/lib/ui-components/ui-components.component.ts",
-          "hash": "14945820510337112762",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "ui-components/src/test-setup.ts",
-          "hash": "1917999429567095215",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "ui-components/tsconfig.json",
-          "hash": "6283936176451738244"
-        },
-        {
-          "file": "ui-components/tsconfig.lib.json",
-          "hash": "6509540169499553819"
-        },
-        {
-          "file": "ui-components/tsconfig.lib.prod.json",
-          "hash": "174503844014784742"
-        },
-        {
-          "file": "ui-components/tsconfig.spec.json",
-          "hash": "2129196202529263968"
-        }
-      ],
       "angular-ui-monorepo": [
         {
           "file": ".github/workflows/ci.yml",
@@ -277,7 +120,7 @@
         },
         {
           "file": "nx.json",
-          "hash": "10098590171199079477"
+          "hash": "4496277466702180568"
         },
         {
           "file": "package-lock.json",
@@ -482,7 +325,7 @@
         },
         {
           "file": "tsconfig.base.json",
-          "hash": "11467689210630181837"
+          "hash": "13590220055867716068"
         },
         {
           "file": "tsconfig.editor.json",
@@ -544,6 +387,170 @@
         {
           "file": "e2e/tsconfig.json",
           "hash": "4113462041669113066"
+        }
+      ],
+      "ui-components": [
+        {
+          "file": "ui-components/.storybook/main.ts",
+          "hash": "12085196776787375606",
+          "deps": [
+            "npm:@storybook/angular"
+          ]
+        },
+        {
+          "file": "ui-components/.storybook/preview.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ui-components/.storybook/tsconfig.json",
+          "hash": "3580233103277275370"
+        },
+        {
+          "file": "ui-components/README.md",
+          "hash": "9454200568591758621"
+        },
+        {
+          "file": "ui-components/eslint.config.mjs",
+          "hash": "15123908784763007189",
+          "deps": [
+            "npm:@nx/eslint-plugin",
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "ui-components/jest.config.ts",
+          "hash": "13217512676914395311"
+        },
+        {
+          "file": "ui-components/ng-package.json",
+          "hash": "6663681397182362451"
+        },
+        {
+          "file": "ui-components/package.json",
+          "hash": "8997285314600581647",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "ui-components/project.json",
+          "hash": "17891780758901638117"
+        },
+        {
+          "file": "ui-components/src/index.ts",
+          "hash": "2348008092427512348"
+        },
+        {
+          "file": "ui-components/src/lib/button/button.html",
+          "hash": "687994335039668939"
+        },
+        {
+          "file": "ui-components/src/lib/button/button.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ui-components/src/lib/button/button.spec.ts",
+          "hash": "7437450012013111987",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "ui-components/src/lib/button/button.stories.ts",
+          "hash": "8824422448457477744",
+          "deps": [
+            "npm:@storybook/angular",
+            "npm:@storybook/testing-library",
+            "npm:@storybook/jest"
+          ]
+        },
+        {
+          "file": "ui-components/src/lib/button/button.ts",
+          "hash": "1225241819968552587",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "ui-components/src/lib/tasks/task.commponent.ts",
+          "hash": "7677428944270816577",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "ui-components/src/lib/tasks/task.component.scss",
+          "hash": "10534871569873335505"
+        },
+        {
+          "file": "ui-components/src/lib/tasks/task.stories.ts",
+          "hash": "16356469327732631654",
+          "deps": [
+            "npm:@storybook/test",
+            "npm:@storybook/angular"
+          ]
+        },
+        {
+          "file": "ui-components/src/lib/ui-components/ui-components.component.html",
+          "hash": "2830750589186087793"
+        },
+        {
+          "file": "ui-components/src/lib/ui-components/ui-components.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ui-components/src/lib/ui-components/ui-components.component.spec.ts",
+          "hash": "7411932594738976253",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "ui-components/src/lib/ui-components/ui-components.component.stories.ts",
+          "hash": "14835907104143905194",
+          "deps": [
+            "npm:@storybook/angular",
+            "npm:@storybook/testing-library",
+            "npm:@storybook/jest"
+          ]
+        },
+        {
+          "file": "ui-components/src/lib/ui-components/ui-components.component.ts",
+          "hash": "14945820510337112762",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "ui-components/src/test-setup.ts",
+          "hash": "1917999429567095215",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "ui-components/tsconfig.json",
+          "hash": "6283936176451738244"
+        },
+        {
+          "file": "ui-components/tsconfig.lib.json",
+          "hash": "6509540169499553819"
+        },
+        {
+          "file": "ui-components/tsconfig.lib.prod.json",
+          "hash": "174503844014784742"
+        },
+        {
+          "file": "ui-components/tsconfig.spec.json",
+          "hash": "2129196202529263968"
         }
       ]
     }
