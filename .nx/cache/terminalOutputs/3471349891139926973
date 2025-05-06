@@ -1,0 +1,25 @@
+[34mBuilding Angular Package[39m
+[37m[39m
+[37m------------------------------------------------------------------------------[39m
+[37mBuilding entry point '@nalvac/ui-components'[39m
+[37m------------------------------------------------------------------------------[39m
+- Compiling with Angular sources in Ivy partial compilation mode.
+[32m✔[39m Compiling with Angular sources in Ivy partial compilation mode.
+[32m✔[39m Generating FESM bundles
+- Copying assets
+[32m✔[39m Copying assets
+- Writing package manifest
+[33mWARNING: Found a conflicting export condition for "./package.json". The "default" condition would be overridden by ng-packagr. Please unset it.[39m
+[33mWARNING: Found a conflicting export condition for ".". The "types" condition would be overridden by ng-packagr. Please unset it.[39m
+[33mWARNING: Found a conflicting export condition for ".". The "default" condition would be overridden by ng-packagr. Please unset it.[39m
+[32m✔[39m Writing package manifest
+[32m✔[39m Built @nalvac/ui-components
+[32m[39m
+[32m------------------------------------------------------------------------------[39m
+[32mBuilt Angular Package[39m
+[32m - from: /home/runner/work/angular-ui-monorepo/angular-ui-monorepo/ui-components[39m
+[32m - to:   /home/runner/work/angular-ui-monorepo/angular-ui-monorepo/dist/ui-components[39m
+[32m------------------------------------------------------------------------------[39m
+[37m[37m[39m[37m[39m
+[37m[37mBuild at: [1m2025-05-06T05:34:00.298Z[22m - Time: [1m3481[22mms[39m[37m[39m
+[37m[37m[39m[37m[39m
