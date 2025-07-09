@@ -5,6 +5,6 @@ import { CommonModule } from '@angular/common';
   selector: 'lib-ui-components',
   imports: [CommonModule],
   templateUrl: './ui-components.component.html',
-  styleUrl: './ui-components.component.scss',
+  styleUrls: ['./ui-components.component.scss'],
 })
 export class UiComponentsComponent {}
