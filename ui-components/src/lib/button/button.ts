@@ -5,6 +5,6 @@ import { CommonModule } from '@angular/common';
   selector: 'lib-button',
   imports: [CommonModule],
   templateUrl: './button.html',
-  styleUrl: './button.scss',
+  styleUrls: ['./button.scss'],
 })
 export class ButtonComponent {}

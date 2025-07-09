@@ -1,4 +1,4 @@
-import {TaskComponent} from "./task.commponent";
+import {TaskComponent} from "./task.component";
 import {fn} from "@storybook/test";
 import {Meta, StoryObj} from "@storybook/angular";
 
